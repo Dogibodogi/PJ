@@ -1,0 +1,101 @@
+﻿using UnityEngine;
+using TMPro; // Folosim TextMeshPro pentru textul de pe ecran
+
+public class NumpadController : MonoBehaviour
+{
+    [Header("UI References")]
+    [Tooltip("Trage aici obiectul TextMeshPro care reprezintă ecranul")]
+    public TextMeshProUGUI screenText;
+
+    [Header("Numpad Settings")]
+    public int maxCodeLength = 4;
+    private string currentInput = "";
+
+    void Start()
+    {
+        UpdateScreen();
+    }
+
+    // Această funcție va fi apelată de butoane (NumpadButton)
+    public void ButtonPressed(string value)
+    {
+        if (value == "CLEAR")
+        {
+            ClearInput();
+        }
+        else if (value == "ENTER")
+        {
+            CheckCode();
+        }
+        else
+        {
+            AddDigit(value);
+        }
+    }
+
+    private void AddDigit(string digit)
+    {
+        // Adăugăm cifra doar dacă nu am atins limita maximă
+        if (currentInput.Length < maxCodeLength)
+        {
+            currentInput += digit;
+            UpdateScreen();
+        }
+    }
+
+    private void ClearInput()
+    {
+        currentInput = "";
+        UpdateScreen();
+    }
+
+    private void UpdateScreen()
+    {
+        if (screenText != null)
+        {
+            // Dacă nu e nimic introdus, afișăm niște liniuțe pentru design
+            if (currentInput == "")
+            {
+                screenText.text = "----";
+            }
+            else
+            {
+                screenText.text = currentInput;
+            }
+        }
+    }
+
+    // Aici definești ce se întâmplă pentru fiecare cod secret!
+    private void CheckCode()
+    {
+        Debug.Log("Verific codul: " + currentInput);
+
+        switch (currentInput)
+        {
+            case "1234":
+                Debug.Log("COD CORECT: Se deschid obloanele!");
+                // Aici poți apela o funcție din alt script, ex: BlastDoors.Open();
+                break;
+
+            case "6666":
+                Debug.Log("COD FATAL: Autodistrugere inițiată!");
+                // Exemplu: Apelezi o funcție din DeskController pentru a face masa roșie
+                DeskController desk = FindObjectOfType<DeskController>();
+                if (desk != null) desk.OnRedButtonPressed();
+                break;
+
+            case "0000":
+                Debug.Log("COD CORECT: Întoarcere pe Pământ!");
+                break;
+
+            default:
+                Debug.Log("Cod incorect/necunoscut.");
+                screenText.text = "ERR"; // Afișăm o eroare scurtă
+                Invoke("ClearInput", 1f); // Ștergem eroarea după 1 secundă
+                return; // Oprim execuția aici ca să nu șteargă imediat
+        }
+
+        // După un cod de succes, curățăm ecranul (opțional)
+        ClearInput();
+    }
+}
