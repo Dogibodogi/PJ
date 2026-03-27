@@ -23,6 +23,10 @@ public class NumpadController : MonoBehaviour
         {
             ClearInput();
         }
+        else if (value == "BACK") // AM ADAUGAT ASTA PENTRU BACKSPACE
+        {
+            DeleteLastDigit();
+        }
         else if (value == "ENTER")
         {
             CheckCode();
@@ -39,6 +43,17 @@ public class NumpadController : MonoBehaviour
         if (currentInput.Length < maxCodeLength)
         {
             currentInput += digit;
+            UpdateScreen();
+        }
+    }
+
+    // Funcție nouă pentru Backspace
+    private void DeleteLastDigit()
+    {
+        if (currentInput.Length > 0)
+        {
+            // Ștergem ultimul caracter din string
+            currentInput = currentInput.Substring(0, currentInput.Length - 1);
             UpdateScreen();
         }
     }
@@ -95,7 +110,7 @@ public class NumpadController : MonoBehaviour
                 return; // Oprim execuția aici ca să nu șteargă imediat
         }
 
-        // După un cod de succes, curățăm ecranul (opțional)
+        // După un cod de succes, curățăm ecranul
         ClearInput();
     }
 }
