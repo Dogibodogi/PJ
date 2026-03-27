@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 59eb276fa4006664e9d0c30454a03d2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2391521708387079924
+    second: NumpadSprite-Photoroom_0
+  - first:
+      213: -4751330141776626288
+    second: NumpadSprite-Photoroom_1
+  - first:
+      213: 5392603829469307409
+    second: NumpadSprite-Photoroom_2
+  - first:
+      213: 5772917267621427270
+    second: NumpadSprite-Photoroom_3
+  - first:
+      213: 5897400435391845455
+    second: NumpadSprite-Photoroom_4
+  - first:
+      213: -3232397940467419229
+    second: NumpadSprite-Photoroom_5
+  - first:
+      213: 5821969605811753294
+    second: NumpadSprite-Photoroom_6
+  - first:
+      213: -4914199312395157299
+    second: NumpadSprite-Photoroom_7
+  - first:
+      213: 157593855768787363
+    second: NumpadSprite-Photoroom_8
+  - first:
+      213: -149634925356217204
+    second: NumpadSprite-Photoroom_9
+  - first:
+      213: 3107515857840082316
+    second: NumpadSprite-Photoroom_10
+  - first:
+      213: -764588329583050942
+    second: NumpadSprite-Photoroom_11
+  - first:
+      213: 2753755549767722663
+    second: NumpadSprite-Photoroom_12
+  - first:
+      213: -4742923538549315871
+    second: NumpadSprite-Photoroom_13
+  - first:
+      213: 3921168373352182789
+    second: NumpadSprite-Photoroom_14
+  - first:
+      213: 7273697818740463876
+    second: NumpadSprite-Photoroom_15
+  - first:
+      213: -3434911310348110534
+    second: NumpadSprite-Photoroom_16
+  - first:
+      213: 2858240870490634920
+    second: NumpadSprite-Photoroom_17
+  - first:
+      213: 4093093025360233077
+    second: NumpadSprite-Photoroom_18
+  - first:
+      213: -2310589728944237265
+    second: NumpadSprite-Photoroom_19
+  - first:
+      213: 2852020070603494096
+    second: NumpadSprite-Photoroom_20
+  - first:
+      213: -4949659198650972318
+    second: NumpadSprite-Photoroom_21
+  - first:
+      213: 3489809218616942067
+    second: NumpadSprite-Photoroom_22
+  - first:
+      213: -6557420326520702074
+    second: NumpadSprite-Photoroom_23
+  - first:
+      213: 8253722923540416129
+    second: NumpadSprite-Photoroom_24
+  - first:
+      213: -4655428601610568654
+    second: NumpadSprite-Photoroom_25
+  - first:
+      213: 5151958936334344355
+    second: NumpadSprite-Photoroom_26
+  - first:
+      213: -3569345207912298668
+    second: NumpadSprite-Photoroom_27
+  - first:
+      213: -7137347653152484493
+    second: NumpadSprite-Photoroom_28
+  - first:
+      213: 2885599742939942865
+    second: NumpadSprite-Photoroom_29
+  - first:
+      213: 8489245728764646685
+    second: NumpadSprite-Photoroom_30
+  - first:
+      213: 1762444214679037190
+    second: NumpadSprite-Photoroom_31
+  - first:
+      213: -8902047782536303334
+    second: NumpadSprite-Photoroom_32
+  - first:
+      213: -5320204295142345507
+    second: NumpadSprite-Photoroom_33
+  - first:
+      213: 3957576161957655223
+    second: NumpadSprite-Photoroom_34
+  - first:
+      213: -1525151091491235150
+    second: NumpadSprite-Photoroom_35
+  - first:
+      213: -840597480476927412
+    second: NumpadSprite-Photoroom_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 156
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cfec33a58946fb0800000000000000
+      internalID: -4655428601610568654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button7_Pressed
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 156
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0ab993b5f6f7740800000000000000
+      internalID: 5151958936334344355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 156
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15d40a230cdfc570800000000000000
+      internalID: 8489245728764646685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button8_Pressed
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 156
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dae54f4b2957480800000000000000
+      internalID: -8902047782536303334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 896bfab41a03f8347b9f0a3ceee86469
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Button7: -4655428601610568654
+      Button7_Pressed: 5151958936334344355
+      Button8: 8489245728764646685
+      Button8_Pressed: -8902047782536303334
+      NumpadSprite-Photoroom_0: -2391521708387079924
+      NumpadSprite-Photoroom_1: -4751330141776626288
+      NumpadSprite-Photoroom_10: 3107515857840082316
+      NumpadSprite-Photoroom_11: -764588329583050942
+      NumpadSprite-Photoroom_12: 2753755549767722663
+      NumpadSprite-Photoroom_13: -4742923538549315871
+      NumpadSprite-Photoroom_14: 3921168373352182789
+      NumpadSprite-Photoroom_15: 7273697818740463876
+      NumpadSprite-Photoroom_16: -3434911310348110534
+      NumpadSprite-Photoroom_17: 2858240870490634920
+      NumpadSprite-Photoroom_18: 4093093025360233077
+      NumpadSprite-Photoroom_19: -2310589728944237265
+      NumpadSprite-Photoroom_2: 5392603829469307409
+      NumpadSprite-Photoroom_20: 2852020070603494096
+      NumpadSprite-Photoroom_21: -4949659198650972318
+      NumpadSprite-Photoroom_22: 3489809218616942067
+      NumpadSprite-Photoroom_23: -6557420326520702074
+      NumpadSprite-Photoroom_24: 8253722923540416129
+      NumpadSprite-Photoroom_27: -3569345207912298668
+      NumpadSprite-Photoroom_28: -7137347653152484493
+      NumpadSprite-Photoroom_29: 2885599742939942865
+      NumpadSprite-Photoroom_3: 5772917267621427270
+      NumpadSprite-Photoroom_31: 1762444214679037190
+      NumpadSprite-Photoroom_33: -5320204295142345507
+      NumpadSprite-Photoroom_34: 3957576161957655223
+      NumpadSprite-Photoroom_35: -1525151091491235150
+      NumpadSprite-Photoroom_36: -840597480476927412
+      NumpadSprite-Photoroom_4: 5897400435391845455
+      NumpadSprite-Photoroom_5: -3232397940467419229
+      NumpadSprite-Photoroom_6: 5821969605811753294
+      NumpadSprite-Photoroom_7: -4914199312395157299
+      NumpadSprite-Photoroom_8: 157593855768787363
+      NumpadSprite-Photoroom_9: -149634925356217204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
