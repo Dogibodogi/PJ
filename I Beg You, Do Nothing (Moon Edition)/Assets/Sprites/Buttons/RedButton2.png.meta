@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f1569be91b03ee5448e600001057281a
+guid: e7fe8011c43c1334daa960839b77d5fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6134751039864755284
-    second: RedButton_0
+      213: 1815292180349123511
+    second: RedButton2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedButton_0
+      name: RedButton2_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 34
-        width: 507
-        height: 441
+        x: 40
+        y: 25
+        width: 526
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454d8944193032550800000000000000
-      internalID: 6134751039864755284
+      spriteID: 7bbf045ce96313910800000000000000
+      internalID: 1815292180349123511
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RedButton_0: 6134751039864755284
+      RedButton2_0: 1815292180349123511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d81f45e846a7a54c8ec2174d80adc33
+guid: fae35e292312cf747889d70a23665167
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8804779677792167859
-    second: RedButton3_0
+      213: 1992643265203270271
+    second: FinalNumpadBackground-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RedButton3_0
+      name: FinalNumpadBackground-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 53
-        width: 544
-        height: 457
+        x: 42
+        y: 25
+        width: 330
+        height: 593
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d489e9368832fc580800000000000000
-      internalID: -8804779677792167859
+      spriteID: f72f3820e7a47ab10800000000000000
+      internalID: 1992643265203270271
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RedButton3_0: -8804779677792167859
+      FinalNumpadBackground-removebg-preview_0: 1992643265203270271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
