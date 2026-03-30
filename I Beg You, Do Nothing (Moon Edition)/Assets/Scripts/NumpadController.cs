@@ -11,6 +11,10 @@ public class NumpadController : MonoBehaviour
     public int maxCodeLength = 4;
     private string currentInput = "";
 
+    // for audio clip
+    public AudioSource musicSource;
+    public AudioClip abandonShipClip;
+
     void Start()
     {
         UpdateScreen();
@@ -80,6 +84,20 @@ public class NumpadController : MonoBehaviour
         }
     }
 
+    private void PlayAbandonShip()
+    {
+        if (musicSource != null && abandonShipClip != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = abandonShipClip;
+            musicSource.Play();
+        }
+        else
+        {
+            Debug.LogWarning("MusicSource // AbandonShipClip not set in Inspector.");
+        }
+    }
+
     // Aici definești ce se întâmplă pentru fiecare cod secret!
     private void CheckCode()
     {
@@ -101,6 +119,11 @@ public class NumpadController : MonoBehaviour
 
             case "0000":
                 Debug.Log("COD CORECT: Întoarcere pe Pământ!");
+                break;
+
+            case "2018":
+                Debug.Log("Now playing: Abandon Ship (created by nicubynicu)");
+                PlayAbandonShip();
                 break;
 
             default:

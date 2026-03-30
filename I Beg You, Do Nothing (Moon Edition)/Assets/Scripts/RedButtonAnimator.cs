@@ -18,6 +18,8 @@ public class RedButtonAnimator : MonoBehaviour
     private Button buttonComponent;
     private bool isAnimating = false;
 
+    public PlanetReverseCounter reverseCounter;
+
     void Start()
     {
         // Grab the Image and Button components from this GameObject
@@ -32,6 +34,11 @@ public class RedButtonAnimator : MonoBehaviour
     {
         if (!isAnimating)
         {
+            if (reverseCounter != null)
+            {
+                reverseCounter.RegisterPress();
+            }
+
             StartCoroutine(PlayPressAnimation());
         }
     }

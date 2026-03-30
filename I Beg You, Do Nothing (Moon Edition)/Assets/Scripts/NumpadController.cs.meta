@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 275a18ca306e6eb4b9137d85ed578964
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - screenText: {instanceID: 0}
+  - musicSource: {instanceID: 0}
+  - abandonShipClip: {fileID: 8300000, guid: 841a60524ab966a44b813d7d91d52c5b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
