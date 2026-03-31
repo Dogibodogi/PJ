@@ -11,6 +11,9 @@ public class NumpadController : MonoBehaviour
     public int maxCodeLength = 4;
     private string currentInput = "";
 
+    // for panel on/off activation
+    public GameObject gridPuzzlePanel;
+
     // for audio clip
     public AudioSource musicSource;
     public AudioClip abandonShipClip;
@@ -119,6 +122,12 @@ public class NumpadController : MonoBehaviour
 
             case "0000":
                 Debug.Log("COD CORECT: Întoarcere pe Pământ!");
+                break;
+
+            case "2540":
+                Debug.Log("Hidden panel activated");
+                if (gridPuzzlePanel != null)
+                    gridPuzzlePanel.SetActive(true);
                 break;
 
             case "2018":
