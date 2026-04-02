@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2b2c57c8c96653649b99cf6a77c64309
+guid: 5788e0c80e7e07b43b68ba0cfb90b46d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8896702447141653487
-    second: Screen_0
+      213: -8808785127103365754
+    second: Leviathan_0
+  - first:
+      213: -5474402284666732141
+    second: Leviathan_1
+  - first:
+      213: -8534034363314754506
+    second: Leviathan_2
+  - first:
+      213: -7765644814450543058
+    second: Leviathan_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Screen_0
+      name: Leviathan_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 250
-        height: 250
+        width: 1524
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 114f5c5d240988480800000000000000
-      internalID: -8896702447141653487
+      spriteID: 68d724c0998e0c580800000000000000
+      internalID: -8808785127103365754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviathan_1
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 345
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3914ad070240704b0800000000000000
+      internalID: -5474402284666732141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviathan_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 344
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ca5a936f4019980800000000000000
+      internalID: -8534034363314754506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviathan_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 336
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2632d67f23ea3490800000000000000
+      internalID: -7765644814450543058
       vertices: []
       indices: 
       edges: []
@@ -148,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Screen_0: -8896702447141653487
+      Leviathan_0: -8808785127103365754
+      Leviathan_1: -5474402284666732141
+      Leviathan_2: -8534034363314754506
+      Leviathan_3: -7765644814450543058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

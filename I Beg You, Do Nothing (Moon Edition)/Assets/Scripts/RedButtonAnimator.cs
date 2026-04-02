@@ -20,6 +20,9 @@ public class RedButtonAnimator : MonoBehaviour
 
     public PlanetReverseCounter reverseCounter;
 
+    [Header("Endings")]
+    public NuclearEndingCounter nuclearCounter; // NEW: Reference to the nuclear counter
+
     void Start()
     {
         // Grab the Image and Button components from this GameObject
@@ -37,6 +40,12 @@ public class RedButtonAnimator : MonoBehaviour
             if (reverseCounter != null)
             {
                 reverseCounter.RegisterPress();
+            }
+
+            // NEW: Register the press for the Nuclear Ending
+            if (nuclearCounter != null)
+            {
+                nuclearCounter.RegisterPress();
             }
 
             StartCoroutine(PlayPressAnimation());

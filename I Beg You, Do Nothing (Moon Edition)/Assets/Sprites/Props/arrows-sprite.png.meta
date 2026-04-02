@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: c00ee0a1c926e3d479ef35fecda06eea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9093138383311198874
+    second: arrows-sprite_0
+  - first:
+      213: 1135523677917666143
+    second: arrows-sprite_1
+  - first:
+      213: -7306743823685618738
+    second: arrows-sprite_2
+  - first:
+      213: -520723573314453560
+    second: arrows-sprite_3
+  - first:
+      213: 5847638270562667410
+    second: arrows-sprite_4
+  - first:
+      213: 2370805505162303087
+    second: arrows-sprite_5
+  - first:
+      213: 8518807701107161241
+    second: arrows-sprite_6
+  - first:
+      213: -476936703975594996
+    second: arrows-sprite_7
+  - first:
+      213: -9036300675730618782
+    second: arrows-sprite_8
+  - first:
+      213: 4902261549834689252
+    second: arrows-sprite_9
+  - first:
+      213: -4674526308263473332
+    second: arrows-sprite_10
+  - first:
+      213: -2864698733975972011
+    second: arrows-sprite_11
+  - first:
+      213: 164348236548583825
+    second: arrows-sprite_12
+  - first:
+      213: -892953416045102
+    second: arrows-sprite_13
+  - first:
+      213: -8106478150205558265
+    second: arrows-sprite_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arrows-sprite_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 887
+        width: 329
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665244161deaec180800000000000000
+      internalID: -9093138383311198874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 672
+        width: 131
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bd350d4c032cf00800000000000000
+      internalID: 1135523677917666143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 680
+        width: 114
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec37074843b399a90800000000000000
+      internalID: -7306743823685618738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 799
+        width: 201
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf7b624ba406c8f0800000000000000
+      internalID: -520723573314453560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 694
+        width: 115
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b0ed3660cf62150800000000000000
+      internalID: 5847638270562667410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 647
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f665dbebb0bc6e020800000000000000
+      internalID: 2370805505162303087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 463
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998ba563872e83670800000000000000
+      internalID: 8518807701107161241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 425
+        width: 185
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04603b38949169f0800000000000000
+      internalID: -476936703975594996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 511
+        width: 267
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266447b696c989280800000000000000
+      internalID: -9036300675730618782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 407
+        width: 123
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ead3f108e4580440800000000000000
+      internalID: 4902261549834689252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 295
+        width: 229
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fccbed61fb02fb0800000000000000
+      internalID: -4674526308263473332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 225
+        width: 269
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557d9d4edab8e38d0800000000000000
+      internalID: -2864698733975972011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 183
+        width: 216
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191b0f2b9d1e74200800000000000000
+      internalID: 164348236548583825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 151
+        width: 266
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dde5d41dd3dcfff0800000000000000
+      internalID: -892953416045102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrows-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 54
+        width: 267
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70238858211008f80800000000000000
+      internalID: -8106478150205558265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arrows-sprite_0: -9093138383311198874
+      arrows-sprite_1: 1135523677917666143
+      arrows-sprite_10: -4674526308263473332
+      arrows-sprite_11: -2864698733975972011
+      arrows-sprite_12: 164348236548583825
+      arrows-sprite_13: -892953416045102
+      arrows-sprite_14: -8106478150205558265
+      arrows-sprite_2: -7306743823685618738
+      arrows-sprite_3: -520723573314453560
+      arrows-sprite_4: 5847638270562667410
+      arrows-sprite_5: 2370805505162303087
+      arrows-sprite_6: 8518807701107161241
+      arrows-sprite_7: -476936703975594996
+      arrows-sprite_8: -9036300675730618782
+      arrows-sprite_9: 4902261549834689252
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
