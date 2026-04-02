@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: f5e28e3ab416a6e4aa921ce4ca6f3867
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -830453599031702723
+    second: moon_rotation_0
+  - first:
+      213: 1272885064032981791
+    second: moon_rotation_1
+  - first:
+      213: 3328766019544585071
+    second: moon_rotation_2
+  - first:
+      213: 80368605862009018
+    second: moon_rotation_3
+  - first:
+      213: 6052149272140464652
+    second: moon_rotation_4
+  - first:
+      213: 8472257362145704288
+    second: moon_rotation_5
+  - first:
+      213: 3975560279933625483
+    second: moon_rotation_6
+  - first:
+      213: -3229871325615131137
+    second: moon_rotation_7
+  - first:
+      213: -3946631225781121093
+    second: moon_rotation_8
+  - first:
+      213: 7868199987212503063
+    second: moon_rotation_9
+  - first:
+      213: -4301426077207991952
+    second: moon_rotation_10
+  - first:
+      213: 9133463610917292168
+    second: moon_rotation_11
+  - first:
+      213: 3640698719652134490
+    second: moon_rotation_12
+  - first:
+      213: -7413258584901282907
+    second: moon_rotation_13
+  - first:
+      213: -8826069693203149434
+    second: moon_rotation_14
+  - first:
+      213: 7003790642422645165
+    second: moon_rotation_15
+  - first:
+      213: -294514591984658505
+    second: moon_rotation_16
+  - first:
+      213: -4037488970297634431
+    second: moon_rotation_17
+  - first:
+      213: 1052005002723461279
+    second: moon_rotation_18
+  - first:
+      213: 7950055061322808098
+    second: moon_rotation_19
+  - first:
+      213: -6633729991716436344
+    second: moon_rotation_20
+  - first:
+      213: -8795183152505340413
+    second: moon_rotation_21
+  - first:
+      213: 4059227002570793523
+    second: moon_rotation_22
+  - first:
+      213: 5946170496326400417
+    second: moon_rotation_23
+  - first:
+      213: 8207990558408861735
+    second: moon_rotation_24
+  - first:
+      213: -4854670931014997218
+    second: moon_rotation_25
+  - first:
+      213: -1180010000588135638
+    second: moon_rotation_26
+  - first:
+      213: -6908806042821819549
+    second: moon_rotation_27
+  - first:
+      213: -3639112837471769253
+    second: moon_rotation_28
+  - first:
+      213: -400588089862630970
+    second: moon_rotation_29
+  - first:
+      213: -7627953763217419456
+    second: moon_rotation_30
+  - first:
+      213: 4854448797155373630
+    second: moon_rotation_31
+  - first:
+      213: -2010243941034450076
+    second: moon_rotation_32
+  - first:
+      213: 5008011263961130704
+    second: moon_rotation_33
+  - first:
+      213: 5516256929806140049
+    second: moon_rotation_34
+  - first:
+      213: -2462078060642593510
+    second: moon_rotation_35
+  - first:
+      213: -3589269927511499096
+    second: moon_rotation_36
+  - first:
+      213: -4722492278224382969
+    second: moon_rotation_37
+  - first:
+      213: -1889207923213334769
+    second: moon_rotation_38
+  - first:
+      213: -6252527591585716007
+    second: moon_rotation_39
+  - first:
+      213: 8780331080681938159
+    second: moon_rotation_40
+  - first:
+      213: 4936613096202943925
+    second: moon_rotation_41
+  - first:
+      213: 4918045798953921171
+    second: moon_rotation_42
+  - first:
+      213: -3908063015409813382
+    second: moon_rotation_43
+  - first:
+      213: -1001727648183427224
+    second: moon_rotation_44
+  - first:
+      213: -4081229194944572953
+    second: moon_rotation_45
+  - first:
+      213: 456276774533408839
+    second: moon_rotation_46
+  - first:
+      213: 7350617303588597808
+    second: moon_rotation_47
+  - first:
+      213: -8343387034003299342
+    second: moon_rotation_48
+  - first:
+      213: -8748154136717039672
+    second: moon_rotation_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moon_rotation_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b45430ad2a974f0800000000000000
+      internalID: -830453599031702723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f131691c8323aa110800000000000000
+      internalID: 1272885064032981791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f639857ee07223e20800000000000000
+      internalID: 3328766019544585071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_3
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab89f7b32d68d1100800000000000000
+      internalID: 80368605862009018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02429582bd8df350800000000000000
+      internalID: 6052149272140464652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069f164de21839570800000000000000
+      internalID: 8472257362145704288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_6
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84a89cd2070c2730800000000000000
+      internalID: 3975560279933625483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57d7654213d23d0800000000000000
+      internalID: -3229871325615131137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_8
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf0adf6fcfba39c0800000000000000
+      internalID: -3946631225781121093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_9
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 1031
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718c88b6336713d60800000000000000
+      internalID: 7868199987212503063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0796a60d5c34e44c0800000000000000
+      internalID: -4301426077207991952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8888ea153c490ce70800000000000000
+      internalID: 9133463610917292168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5eb51f323c568230800000000000000
+      internalID: 3640698719652134490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_13
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a318da1890de1990800000000000000
+      internalID: -7413258584901282907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_14
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d09c56060838580800000000000000
+      internalID: -8826069693203149434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_15
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da18eca4b76723160800000000000000
+      internalID: 7003790642422645165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_16
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7d59bf98ca9ebf0800000000000000
+      internalID: -294514591984658505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_17
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1811adc4c25f7f7c0800000000000000
+      internalID: -4037488970297634431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_18
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f980449e9f8799e00800000000000000
+      internalID: 1052005002723461279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_19
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 775
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b31f205f4445e60800000000000000
+      internalID: 7950055061322808098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88603e338b140f3a0800000000000000
+      internalID: -6633729991716436344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e3b6c858b31f580800000000000000
+      internalID: -8795183152505340413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332e7eeb375455830800000000000000
+      internalID: 4059227002570793523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_23
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9717fef8a058250800000000000000
+      internalID: 5946170496326400417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_24
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72868b1dce3a8e170800000000000000
+      internalID: 8207990558408861735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_25
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1baf67628eb0acb0800000000000000
+      internalID: -4854670931014997218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_26
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23298b0823cf9fe0800000000000000
+      internalID: -1180010000588135638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_27
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363888b228dfe10a0800000000000000
+      internalID: -6908806042821819549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_28
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d6ee8b7264f7dc0800000000000000
+      internalID: -3639112837471769253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_29
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 519
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c15c723143d07af0800000000000000
+      internalID: -400588089862630970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043525c8770142690800000000000000
+      internalID: -7627953763217419456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_31
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32b4c606777e5340800000000000000
+      internalID: 4854448797155373630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_32
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a2ce49cd2a14e0800000000000000
+      internalID: -2010243941034450076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_33
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6ee8306b7008540800000000000000
+      internalID: 5008011263961130704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_34
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192c1e6837ead8c40800000000000000
+      internalID: 5516256929806140049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_35
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a159d1a6c01f4ddd0800000000000000
+      internalID: -2462078060642593510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_36
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae5fa7840a503ec0800000000000000
+      internalID: -3589269927511499096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_37
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70419e53b46567eb0800000000000000
+      internalID: -4722492278224382969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_38
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07040e376f28c5e0800000000000000
+      internalID: -1889207923213334769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_39
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 263
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d86433684f8a39a0800000000000000
+      internalID: -6252527591585716007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec5e5209900ad970800000000000000
+      internalID: 8780331080681938159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_41
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdb7b8a47f528440800000000000000
+      internalID: 4936613096202943925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_42
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a20c3e898604440800000000000000
+      internalID: 4918045798953921171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_43
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78f7aea465c3c9c0800000000000000
+      internalID: -3908063015409813382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_44
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fd658e2062912f0800000000000000
+      internalID: -1001727648183427224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_45
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e11064abaf8c57c0800000000000000
+      internalID: -4081229194944572953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_46
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74823591f45055600800000000000000
+      internalID: 456276774533408839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_47
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030fc3c0e73a20660800000000000000
+      internalID: 7350617303588597808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_48
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f322ae92b5563c80800000000000000
+      internalID: -8343387034003299342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon_rotation_49
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 7
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7ed909920589680800000000000000
+      internalID: -8748154136717039672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moon_rotation_0: -830453599031702723
+      moon_rotation_1: 1272885064032981791
+      moon_rotation_10: -4301426077207991952
+      moon_rotation_11: 9133463610917292168
+      moon_rotation_12: 3640698719652134490
+      moon_rotation_13: -7413258584901282907
+      moon_rotation_14: -8826069693203149434
+      moon_rotation_15: 7003790642422645165
+      moon_rotation_16: -294514591984658505
+      moon_rotation_17: -4037488970297634431
+      moon_rotation_18: 1052005002723461279
+      moon_rotation_19: 7950055061322808098
+      moon_rotation_2: 3328766019544585071
+      moon_rotation_20: -6633729991716436344
+      moon_rotation_21: -8795183152505340413
+      moon_rotation_22: 4059227002570793523
+      moon_rotation_23: 5946170496326400417
+      moon_rotation_24: 8207990558408861735
+      moon_rotation_25: -4854670931014997218
+      moon_rotation_26: -1180010000588135638
+      moon_rotation_27: -6908806042821819549
+      moon_rotation_28: -3639112837471769253
+      moon_rotation_29: -400588089862630970
+      moon_rotation_3: 80368605862009018
+      moon_rotation_30: -7627953763217419456
+      moon_rotation_31: 4854448797155373630
+      moon_rotation_32: -2010243941034450076
+      moon_rotation_33: 5008011263961130704
+      moon_rotation_34: 5516256929806140049
+      moon_rotation_35: -2462078060642593510
+      moon_rotation_36: -3589269927511499096
+      moon_rotation_37: -4722492278224382969
+      moon_rotation_38: -1889207923213334769
+      moon_rotation_39: -6252527591585716007
+      moon_rotation_4: 6052149272140464652
+      moon_rotation_40: 8780331080681938159
+      moon_rotation_41: 4936613096202943925
+      moon_rotation_42: 4918045798953921171
+      moon_rotation_43: -3908063015409813382
+      moon_rotation_44: -1001727648183427224
+      moon_rotation_45: -4081229194944572953
+      moon_rotation_46: 456276774533408839
+      moon_rotation_47: 7350617303588597808
+      moon_rotation_48: -8343387034003299342
+      moon_rotation_49: -8748154136717039672
+      moon_rotation_5: 8472257362145704288
+      moon_rotation_6: 3975560279933625483
+      moon_rotation_7: -3229871325615131137
+      moon_rotation_8: -3946631225781121093
+      moon_rotation_9: 7868199987212503063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
