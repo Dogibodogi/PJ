@@ -108,8 +108,8 @@ public class NumpadController : MonoBehaviour
 
         switch (currentInput)
         {
-            case "6742":
-                Debug.Log("RONALDO SUIIII!");
+            case "1234":
+                Debug.Log("COD CORECT: Se deschid obloanele!");
                 // Aici poți apela o funcție din alt script, ex: BlastDoors.Open();
                 break;
 
