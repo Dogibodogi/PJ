@@ -10,6 +10,11 @@ public class UVLightTool : InteractableTool, IBeginDragHandler, IDragHandler, IE
     public Color offColor = Color.white;
     public Color onColor = new Color(0.6f, 0.2f, 1f); // O culoare mov/ultraviolet
 
+    [Header("Switch Visuals")]
+    public Image switchImage;       // Assign the Switch Button's Image component here
+    public Sprite switchOnSprite;   // The sprite to show when the switch is ON
+    public Sprite switchOffSprite;  // The sprite to show when the switch is OFF
+
     private Image toolImage;
     private RectTransform rectTransform;
     private Canvas canvas; // Needed to scale dragging movement accurately
@@ -52,10 +57,16 @@ public class UVLightTool : InteractableTool, IBeginDragHandler, IDragHandler, IE
 
     private void UpdateVisuals()
     {
+        // Update the light beam / lamp color
         if (toolImage != null)
         {
-            // Schimbăm culoarea uneltei ca să știm vizual că e aprinsă
             toolImage.color = isUVLightOn ? onColor : offColor;
+        }
+
+        // Update the switch button sprite
+        if (switchImage != null)
+        {
+            switchImage.sprite = isUVLightOn ? switchOnSprite : switchOffSprite;
         }
     }
 
