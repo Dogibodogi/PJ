@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 7b0b9fb3fcbc9814c8e9d5c9e62356fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4555009848719251564
+    second: white_planet_detailed_horizontal_strip_50frames_256_0
+  - first:
+      213: -1275922771185936982
+    second: white_planet_detailed_horizontal_strip_50frames_256_1
+  - first:
+      213: 4930818292097189469
+    second: white_planet_detailed_horizontal_strip_50frames_256_2
+  - first:
+      213: -5600142451044988465
+    second: white_planet_detailed_horizontal_strip_50frames_256_3
+  - first:
+      213: -3496788653796874829
+    second: white_planet_detailed_horizontal_strip_50frames_256_4
+  - first:
+      213: -3112461455044128641
+    second: white_planet_detailed_horizontal_strip_50frames_256_5
+  - first:
+      213: -246901637815228871
+    second: white_planet_detailed_horizontal_strip_50frames_256_6
+  - first:
+      213: -14266918851080706
+    second: white_planet_detailed_horizontal_strip_50frames_256_7
+  - first:
+      213: 4398009175258985015
+    second: white_planet_detailed_horizontal_strip_50frames_256_8
+  - first:
+      213: -1777643025764691344
+    second: white_planet_detailed_horizontal_strip_50frames_256_9
+  - first:
+      213: 5026597530588354070
+    second: white_planet_detailed_horizontal_strip_50frames_256_10
+  - first:
+      213: 5627833332029632215
+    second: white_planet_detailed_horizontal_strip_50frames_256_11
+  - first:
+      213: -7435254932234935948
+    second: white_planet_detailed_horizontal_strip_50frames_256_12
+  - first:
+      213: 5841463038025667459
+    second: white_planet_detailed_horizontal_strip_50frames_256_13
+  - first:
+      213: -695106685463147973
+    second: white_planet_detailed_horizontal_strip_50frames_256_14
+  - first:
+      213: -3709212473800321548
+    second: white_planet_detailed_horizontal_strip_50frames_256_15
+  - first:
+      213: 2252021185553215322
+    second: white_planet_detailed_horizontal_strip_50frames_256_16
+  - first:
+      213: -3529094178871900865
+    second: white_planet_detailed_horizontal_strip_50frames_256_17
+  - first:
+      213: 7375328359715377377
+    second: white_planet_detailed_horizontal_strip_50frames_256_18
+  - first:
+      213: 6100788747248681827
+    second: white_planet_detailed_horizontal_strip_50frames_256_19
+  - first:
+      213: -3969955015106465155
+    second: white_planet_detailed_horizontal_strip_50frames_256_20
+  - first:
+      213: -1326808374350668552
+    second: white_planet_detailed_horizontal_strip_50frames_256_21
+  - first:
+      213: -5585895376629296751
+    second: white_planet_detailed_horizontal_strip_50frames_256_22
+  - first:
+      213: -7938426000938617270
+    second: white_planet_detailed_horizontal_strip_50frames_256_23
+  - first:
+      213: -6461695429258962509
+    second: white_planet_detailed_horizontal_strip_50frames_256_24
+  - first:
+      213: -136099384303039187
+    second: white_planet_detailed_horizontal_strip_50frames_256_25
+  - first:
+      213: -1985640455255428812
+    second: white_planet_detailed_horizontal_strip_50frames_256_26
+  - first:
+      213: 5182087401633004712
+    second: white_planet_detailed_horizontal_strip_50frames_256_27
+  - first:
+      213: 3305434230505547763
+    second: white_planet_detailed_horizontal_strip_50frames_256_28
+  - first:
+      213: 1955424763775263683
+    second: white_planet_detailed_horizontal_strip_50frames_256_29
+  - first:
+      213: -4678102062333887587
+    second: white_planet_detailed_horizontal_strip_50frames_256_30
+  - first:
+      213: -7460483178130586230
+    second: white_planet_detailed_horizontal_strip_50frames_256_31
+  - first:
+      213: -3642505484242329987
+    second: white_planet_detailed_horizontal_strip_50frames_256_32
+  - first:
+      213: -1275733787183613228
+    second: white_planet_detailed_horizontal_strip_50frames_256_33
+  - first:
+      213: 5871272588758587734
+    second: white_planet_detailed_horizontal_strip_50frames_256_34
+  - first:
+      213: 8148211583969567559
+    second: white_planet_detailed_horizontal_strip_50frames_256_35
+  - first:
+      213: -7804228946876454658
+    second: white_planet_detailed_horizontal_strip_50frames_256_36
+  - first:
+      213: -7223818500368722468
+    second: white_planet_detailed_horizontal_strip_50frames_256_37
+  - first:
+      213: -1718516028525867205
+    second: white_planet_detailed_horizontal_strip_50frames_256_38
+  - first:
+      213: -1590570864156307856
+    second: white_planet_detailed_horizontal_strip_50frames_256_39
+  - first:
+      213: -4258717602732567278
+    second: white_planet_detailed_horizontal_strip_50frames_256_40
+  - first:
+      213: -3125411940415296891
+    second: white_planet_detailed_horizontal_strip_50frames_256_41
+  - first:
+      213: 1311086413013344507
+    second: white_planet_detailed_horizontal_strip_50frames_256_42
+  - first:
+      213: -7654255440730271719
+    second: white_planet_detailed_horizontal_strip_50frames_256_43
+  - first:
+      213: 4966363789647202536
+    second: white_planet_detailed_horizontal_strip_50frames_256_44
+  - first:
+      213: 892412228191610589
+    second: white_planet_detailed_horizontal_strip_50frames_256_45
+  - first:
+      213: -1692030021031978071
+    second: white_planet_detailed_horizontal_strip_50frames_256_46
+  - first:
+      213: -4327588589574809878
+    second: white_planet_detailed_horizontal_strip_50frames_256_47
+  - first:
+      213: 5710886513382614279
+    second: white_planet_detailed_horizontal_strip_50frames_256_48
+  - first:
+      213: -3082029978557913995
+    second: white_planet_detailed_horizontal_strip_50frames_256_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68115de255a63f30800000000000000
+      internalID: 4555009848719251564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa551aeeff20b4ee0800000000000000
+      internalID: -1275922771185936982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d568370bc19cd6440800000000000000
+      internalID: 4930818292097189469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9c0e19c1c4842b0800000000000000
+      internalID: -5600142451044988465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b522d30f39e87fc0800000000000000
+      internalID: -3496788653796874829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_5
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70dff21cc05ec4d0800000000000000
+      internalID: -3112461455044128641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_6
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936af8fb444d29cf0800000000000000
+      internalID: -246901637815228871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd87d910505dcff0800000000000000
+      internalID: -14266918851080706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_8
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73278321b0ed80d30800000000000000
+      internalID: 4398009175258985015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_9
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07258df161b8457e0800000000000000
+      internalID: -1777643025764691344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_10
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616139f62df02c540800000000000000
+      internalID: 5026597530588354070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_11
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deaab219941a1e40800000000000000
+      internalID: 5627833332029632215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_12
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4716aa5680ba0d890800000000000000
+      internalID: -7435254932234935948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_13
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38318160fab011150800000000000000
+      internalID: 5841463038025667459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_14
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a48f3072c7a56f0800000000000000
+      internalID: -695106685463147973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_15
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51fa648ea368cc0800000000000000
+      internalID: -3709212473800321548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_16
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fad872659c04f10800000000000000
+      internalID: 2252021185553215322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_17
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f350171da83260fc0800000000000000
+      internalID: -3529094178871900865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_18
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e013b6211e6a5660800000000000000
+      internalID: 7375328359715377377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_19
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3634571da0b5aa450800000000000000
+      internalID: 6100788747248681827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_20
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d727c4e82f2e7e8c0800000000000000
+      internalID: -3969955015106465155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_21
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc90d130da369de0800000000000000
+      internalID: -1326808374350668552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_22
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191938310c9ea72b0800000000000000
+      internalID: -5585895376629296751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_23
+      rect:
+        serializedVersion: 2
+        x: 5896
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46345a9c9b05d190800000000000000
+      internalID: -7938426000938617270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_24
+      rect:
+        serializedVersion: 2
+        x: 6152
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9114c1e327356a0800000000000000
+      internalID: -6461695429258962509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_25
+      rect:
+        serializedVersion: 2
+        x: 6408
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dc770c45a7c1ef0800000000000000
+      internalID: -136099384303039187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_26
+      rect:
+        serializedVersion: 2
+        x: 6664
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431fadcb6869174e0800000000000000
+      internalID: -1985640455255428812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_27
+      rect:
+        serializedVersion: 2
+        x: 6920
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acbc5139097ae740800000000000000
+      internalID: 5182087401633004712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_28
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f723b17be24fdd20800000000000000
+      internalID: 3305434230505547763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_29
+      rect:
+        serializedVersion: 2
+        x: 7432
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a3dd5670132b10800000000000000
+      internalID: 1955424763775263683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_30
+      rect:
+        serializedVersion: 2
+        x: 7688
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bf09fb5fa041fb0800000000000000
+      internalID: -4678102062333887587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_31
+      rect:
+        serializedVersion: 2
+        x: 7944
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85cfbaa31a077890800000000000000
+      internalID: -7460483178130586230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_32
+      rect:
+        serializedVersion: 2
+        x: 8200
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ed2579f88337dc0800000000000000
+      internalID: -3642505484242329987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_33
+      rect:
+        serializedVersion: 2
+        x: 8456
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4daf4f231eeab4ee0800000000000000
+      internalID: -1275733787183613228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_34
+      rect:
+        serializedVersion: 2
+        x: 8712
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6599178ef43fa7150800000000000000
+      internalID: 5871272588758587734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_35
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743aa39b343441170800000000000000
+      internalID: 8148211583969567559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_36
+      rect:
+        serializedVersion: 2
+        x: 9224
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8ab931f1fc1b390800000000000000
+      internalID: -7804228946876454658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_37
+      rect:
+        serializedVersion: 2
+        x: 9480
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd590abe857dfbb90800000000000000
+      internalID: -7223818500368722468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_38
+      rect:
+        serializedVersion: 2
+        x: 9736
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f86e2f6ca9628e0800000000000000
+      internalID: -1718516028525867205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_39
+      rect:
+        serializedVersion: 2
+        x: 9992
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e80ebe9382de9e0800000000000000
+      internalID: -1590570864156307856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_40
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2151c6a67eef5e4c0800000000000000
+      internalID: -4258717602732567278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_41
+      rect:
+        serializedVersion: 2
+        x: 10504
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a28ca366e40a4d0800000000000000
+      internalID: -3125411940415296891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_42
+      rect:
+        serializedVersion: 2
+        x: 10760
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0608d652ae13210800000000000000
+      internalID: 1311086413013344507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_43
+      rect:
+        serializedVersion: 2
+        x: 11016
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910db2b0b3f96c590800000000000000
+      internalID: -7654255440730271719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_44
+      rect:
+        serializedVersion: 2
+        x: 11272
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8c843cd811ce440800000000000000
+      internalID: 4966363789647202536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_45
+      rect:
+        serializedVersion: 2
+        x: 11528
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6639e713c726c00800000000000000
+      internalID: 892412228191610589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_46
+      rect:
+        serializedVersion: 2
+        x: 11784
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab971f19a3b488e0800000000000000
+      internalID: -1692030021031978071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_47
+      rect:
+        serializedVersion: 2
+        x: 12040
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae61c583b1151f3c0800000000000000
+      internalID: -4327588589574809878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_48
+      rect:
+        serializedVersion: 2
+        x: 12296
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7056dbeb605214f40800000000000000
+      internalID: 5710886513382614279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_planet_detailed_horizontal_strip_50frames_256_49
+      rect:
+        serializedVersion: 2
+        x: 12552
+        y: 8
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57463f4501e6a35d0800000000000000
+      internalID: -3082029978557913995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      white_planet_detailed_horizontal_strip_50frames_256_0: 4555009848719251564
+      white_planet_detailed_horizontal_strip_50frames_256_1: -1275922771185936982
+      white_planet_detailed_horizontal_strip_50frames_256_10: 5026597530588354070
+      white_planet_detailed_horizontal_strip_50frames_256_11: 5627833332029632215
+      white_planet_detailed_horizontal_strip_50frames_256_12: -7435254932234935948
+      white_planet_detailed_horizontal_strip_50frames_256_13: 5841463038025667459
+      white_planet_detailed_horizontal_strip_50frames_256_14: -695106685463147973
+      white_planet_detailed_horizontal_strip_50frames_256_15: -3709212473800321548
+      white_planet_detailed_horizontal_strip_50frames_256_16: 2252021185553215322
+      white_planet_detailed_horizontal_strip_50frames_256_17: -3529094178871900865
+      white_planet_detailed_horizontal_strip_50frames_256_18: 7375328359715377377
+      white_planet_detailed_horizontal_strip_50frames_256_19: 6100788747248681827
+      white_planet_detailed_horizontal_strip_50frames_256_2: 4930818292097189469
+      white_planet_detailed_horizontal_strip_50frames_256_20: -3969955015106465155
+      white_planet_detailed_horizontal_strip_50frames_256_21: -1326808374350668552
+      white_planet_detailed_horizontal_strip_50frames_256_22: -5585895376629296751
+      white_planet_detailed_horizontal_strip_50frames_256_23: -7938426000938617270
+      white_planet_detailed_horizontal_strip_50frames_256_24: -6461695429258962509
+      white_planet_detailed_horizontal_strip_50frames_256_25: -136099384303039187
+      white_planet_detailed_horizontal_strip_50frames_256_26: -1985640455255428812
+      white_planet_detailed_horizontal_strip_50frames_256_27: 5182087401633004712
+      white_planet_detailed_horizontal_strip_50frames_256_28: 3305434230505547763
+      white_planet_detailed_horizontal_strip_50frames_256_29: 1955424763775263683
+      white_planet_detailed_horizontal_strip_50frames_256_3: -5600142451044988465
+      white_planet_detailed_horizontal_strip_50frames_256_30: -4678102062333887587
+      white_planet_detailed_horizontal_strip_50frames_256_31: -7460483178130586230
+      white_planet_detailed_horizontal_strip_50frames_256_32: -3642505484242329987
+      white_planet_detailed_horizontal_strip_50frames_256_33: -1275733787183613228
+      white_planet_detailed_horizontal_strip_50frames_256_34: 5871272588758587734
+      white_planet_detailed_horizontal_strip_50frames_256_35: 8148211583969567559
+      white_planet_detailed_horizontal_strip_50frames_256_36: -7804228946876454658
+      white_planet_detailed_horizontal_strip_50frames_256_37: -7223818500368722468
+      white_planet_detailed_horizontal_strip_50frames_256_38: -1718516028525867205
+      white_planet_detailed_horizontal_strip_50frames_256_39: -1590570864156307856
+      white_planet_detailed_horizontal_strip_50frames_256_4: -3496788653796874829
+      white_planet_detailed_horizontal_strip_50frames_256_40: -4258717602732567278
+      white_planet_detailed_horizontal_strip_50frames_256_41: -3125411940415296891
+      white_planet_detailed_horizontal_strip_50frames_256_42: 1311086413013344507
+      white_planet_detailed_horizontal_strip_50frames_256_43: -7654255440730271719
+      white_planet_detailed_horizontal_strip_50frames_256_44: 4966363789647202536
+      white_planet_detailed_horizontal_strip_50frames_256_45: 892412228191610589
+      white_planet_detailed_horizontal_strip_50frames_256_46: -1692030021031978071
+      white_planet_detailed_horizontal_strip_50frames_256_47: -4327588589574809878
+      white_planet_detailed_horizontal_strip_50frames_256_48: 5710886513382614279
+      white_planet_detailed_horizontal_strip_50frames_256_49: -3082029978557913995
+      white_planet_detailed_horizontal_strip_50frames_256_5: -3112461455044128641
+      white_planet_detailed_horizontal_strip_50frames_256_6: -246901637815228871
+      white_planet_detailed_horizontal_strip_50frames_256_7: -14266918851080706
+      white_planet_detailed_horizontal_strip_50frames_256_8: 4398009175258985015
+      white_planet_detailed_horizontal_strip_50frames_256_9: -1777643025764691344
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
