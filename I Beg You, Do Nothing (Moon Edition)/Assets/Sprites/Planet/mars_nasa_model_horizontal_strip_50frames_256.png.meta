@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 2b60927bebe9db642a327bccce8f9577
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1467592034593317213
+    second: mars_nasa_model_horizontal_strip_50frames_256_0
+  - first:
+      213: 779654177424604749
+    second: mars_nasa_model_horizontal_strip_50frames_256_1
+  - first:
+      213: -7791060669850709393
+    second: mars_nasa_model_horizontal_strip_50frames_256_2
+  - first:
+      213: 1150216126107192741
+    second: mars_nasa_model_horizontal_strip_50frames_256_3
+  - first:
+      213: 1653677375245413093
+    second: mars_nasa_model_horizontal_strip_50frames_256_4
+  - first:
+      213: 2383856903731867227
+    second: mars_nasa_model_horizontal_strip_50frames_256_5
+  - first:
+      213: 5154646800087979557
+    second: mars_nasa_model_horizontal_strip_50frames_256_6
+  - first:
+      213: 3583312857087074166
+    second: mars_nasa_model_horizontal_strip_50frames_256_7
+  - first:
+      213: 8050353880056184373
+    second: mars_nasa_model_horizontal_strip_50frames_256_8
+  - first:
+      213: -7895248949529013398
+    second: mars_nasa_model_horizontal_strip_50frames_256_9
+  - first:
+      213: -7298992005604653878
+    second: mars_nasa_model_horizontal_strip_50frames_256_10
+  - first:
+      213: -1536792235929735440
+    second: mars_nasa_model_horizontal_strip_50frames_256_11
+  - first:
+      213: -7397990504757907995
+    second: mars_nasa_model_horizontal_strip_50frames_256_12
+  - first:
+      213: 7954379719318692653
+    second: mars_nasa_model_horizontal_strip_50frames_256_13
+  - first:
+      213: -1596100651112736103
+    second: mars_nasa_model_horizontal_strip_50frames_256_14
+  - first:
+      213: 7347049026381181368
+    second: mars_nasa_model_horizontal_strip_50frames_256_15
+  - first:
+      213: 5305070000932397624
+    second: mars_nasa_model_horizontal_strip_50frames_256_16
+  - first:
+      213: -7441876424809604145
+    second: mars_nasa_model_horizontal_strip_50frames_256_17
+  - first:
+      213: 8615221575239003641
+    second: mars_nasa_model_horizontal_strip_50frames_256_18
+  - first:
+      213: -8367426688556506755
+    second: mars_nasa_model_horizontal_strip_50frames_256_19
+  - first:
+      213: -6024026447709956130
+    second: mars_nasa_model_horizontal_strip_50frames_256_20
+  - first:
+      213: -7956195606460786980
+    second: mars_nasa_model_horizontal_strip_50frames_256_21
+  - first:
+      213: -3587019921559917188
+    second: mars_nasa_model_horizontal_strip_50frames_256_22
+  - first:
+      213: 7287540211564131759
+    second: mars_nasa_model_horizontal_strip_50frames_256_23
+  - first:
+      213: -4182200227082789641
+    second: mars_nasa_model_horizontal_strip_50frames_256_24
+  - first:
+      213: -3059193397751413221
+    second: mars_nasa_model_horizontal_strip_50frames_256_25
+  - first:
+      213: -3598333068112379651
+    second: mars_nasa_model_horizontal_strip_50frames_256_26
+  - first:
+      213: -6760060954865889228
+    second: mars_nasa_model_horizontal_strip_50frames_256_27
+  - first:
+      213: 8646848506346662932
+    second: mars_nasa_model_horizontal_strip_50frames_256_28
+  - first:
+      213: 2113726006797100247
+    second: mars_nasa_model_horizontal_strip_50frames_256_29
+  - first:
+      213: -1018511834024898498
+    second: mars_nasa_model_horizontal_strip_50frames_256_30
+  - first:
+      213: 272024885974594725
+    second: mars_nasa_model_horizontal_strip_50frames_256_31
+  - first:
+      213: 808296037578620064
+    second: mars_nasa_model_horizontal_strip_50frames_256_32
+  - first:
+      213: 4245032609208954203
+    second: mars_nasa_model_horizontal_strip_50frames_256_33
+  - first:
+      213: -3350310677917792096
+    second: mars_nasa_model_horizontal_strip_50frames_256_34
+  - first:
+      213: 5515870198014310459
+    second: mars_nasa_model_horizontal_strip_50frames_256_35
+  - first:
+      213: -5941026436171905216
+    second: mars_nasa_model_horizontal_strip_50frames_256_36
+  - first:
+      213: 6379837980136660687
+    second: mars_nasa_model_horizontal_strip_50frames_256_37
+  - first:
+      213: 3140973576288880693
+    second: mars_nasa_model_horizontal_strip_50frames_256_38
+  - first:
+      213: 6288654891613039373
+    second: mars_nasa_model_horizontal_strip_50frames_256_39
+  - first:
+      213: 8293763718691010605
+    second: mars_nasa_model_horizontal_strip_50frames_256_40
+  - first:
+      213: 8641531383315808843
+    second: mars_nasa_model_horizontal_strip_50frames_256_41
+  - first:
+      213: 4880397330492175856
+    second: mars_nasa_model_horizontal_strip_50frames_256_42
+  - first:
+      213: 1597593055073546454
+    second: mars_nasa_model_horizontal_strip_50frames_256_43
+  - first:
+      213: 6215008995599537168
+    second: mars_nasa_model_horizontal_strip_50frames_256_44
+  - first:
+      213: -6854619051417827598
+    second: mars_nasa_model_horizontal_strip_50frames_256_45
+  - first:
+      213: 7167629400221895538
+    second: mars_nasa_model_horizontal_strip_50frames_256_46
+  - first:
+      213: -6497841920461020758
+    second: mars_nasa_model_horizontal_strip_50frames_256_47
+  - first:
+      213: -2282284153990014428
+    second: mars_nasa_model_horizontal_strip_50frames_256_48
+  - first:
+      213: 5753911245341640817
+    second: mars_nasa_model_horizontal_strip_50frames_256_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51a0290e2fed5410800000000000000
+      internalID: 1467592034593317213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4efa05f753e1da00800000000000000
+      internalID: 779654177424604749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62180e799790e390800000000000000
+      internalID: -7791060669850709393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8b8bf87366ff00800000000000000
+      internalID: 1150216126107192741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_4
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea6a9cafca03f610800000000000000
+      internalID: 1653677375245413093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_5
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eec464939251120800000000000000
+      internalID: 2383856903731867227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_6
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52619d544fbf88740800000000000000
+      internalID: 5154646800087979557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_7
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fd3cdee0c7ab130800000000000000
+      internalID: 3583312857087074166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_8
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ebfe8833a98bf60800000000000000
+      internalID: 8050353880056184373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_9
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631c0649e07e6290800000000000000
+      internalID: -7895248949529013398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_10
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c48f4175c4ba90800000000000000
+      internalID: -7298992005604653878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe64db8a973caae0800000000000000
+      internalID: -1536792235929735440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_12
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed213805de055990800000000000000
+      internalID: -7397990504757907995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_13
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ef8ae532a36e60800000000000000
+      internalID: 7954379719318692653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_14
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ad7a01ae289d9e0800000000000000
+      internalID: -1596100651112736103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_15
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b174d4c926f5f560800000000000000
+      internalID: 7347049026381181368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_16
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8322822fe056f9940800000000000000
+      internalID: 5305070000932397624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_17
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb9ed402d429b890800000000000000
+      internalID: -7441876424809604145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_18
+      rect:
+        serializedVersion: 2
+        x: 4618
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fde665906a6f8770800000000000000
+      internalID: 8615221575239003641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_19
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71677062cde0eb80800000000000000
+      internalID: -8367426688556506755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_20
+      rect:
+        serializedVersion: 2
+        x: 5130
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed790baccdb566ca0800000000000000
+      internalID: -6024026447709956130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_21
+      rect:
+        serializedVersion: 2
+        x: 5386
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd69169ef3ae59190800000000000000
+      internalID: -7956195606460786980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_22
+      rect:
+        serializedVersion: 2
+        x: 5643
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7deb2dd268583ec0800000000000000
+      internalID: -3587019921559917188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_23
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5b7ac163b822560800000000000000
+      internalID: 7287540211564131759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_24
+      rect:
+        serializedVersion: 2
+        x: 6155
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc1c2d3d07d5f5c0800000000000000
+      internalID: -4182200227082789641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_25
+      rect:
+        serializedVersion: 2
+        x: 6411
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168ec320df8b85d0800000000000000
+      internalID: -3059193397751413221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_26
+      rect:
+        serializedVersion: 2
+        x: 6667
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ce9ba327201ec0800000000000000
+      internalID: -3598333068112379651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_27
+      rect:
+        serializedVersion: 2
+        x: 6923
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4301b3db0607f22a0800000000000000
+      internalID: -6760060954865889228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_28
+      rect:
+        serializedVersion: 2
+        x: 7179
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ce86f47e6cff770800000000000000
+      internalID: 8646848506346662932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_29
+      rect:
+        serializedVersion: 2
+        x: 7435
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d465abaa96755d10800000000000000
+      internalID: 2113726006797100247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_30
+      rect:
+        serializedVersion: 2
+        x: 7691
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e301a6d12e48dd1f0800000000000000
+      internalID: -1018511834024898498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_31
+      rect:
+        serializedVersion: 2
+        x: 7947
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4f49a413d66c300800000000000000
+      internalID: 272024885974594725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_32
+      rect:
+        serializedVersion: 2
+        x: 8203
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acba31b6f4a73b00800000000000000
+      internalID: 808296037578620064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_33
+      rect:
+        serializedVersion: 2
+        x: 8459
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d69dbbaa269ea30800000000000000
+      internalID: 4245032609208954203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_34
+      rect:
+        serializedVersion: 2
+        x: 8715
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8038b603e4181d0800000000000000
+      internalID: -3350310677917792096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_35
+      rect:
+        serializedVersion: 2
+        x: 8971
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b387ec388be4c8c40800000000000000
+      internalID: 5515870198014310459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_36
+      rect:
+        serializedVersion: 2
+        x: 9228
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047c4c6eeeb3d8da0800000000000000
+      internalID: -5941026436171905216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_37
+      rect:
+        serializedVersion: 2
+        x: 9484
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce579257dcb98850800000000000000
+      internalID: 6379837980136660687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_38
+      rect:
+        serializedVersion: 2
+        x: 9740
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538469773daf69b20800000000000000
+      internalID: 3140973576288880693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_39
+      rect:
+        serializedVersion: 2
+        x: 9996
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b2e912e4ac54750800000000000000
+      internalID: 6288654891613039373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_40
+      rect:
+        serializedVersion: 2
+        x: 10252
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28b99fe82e591370800000000000000
+      internalID: 8293763718691010605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_41
+      rect:
+        serializedVersion: 2
+        x: 10508
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42cde12203ece770800000000000000
+      internalID: 8641531383315808843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_42
+      rect:
+        serializedVersion: 2
+        x: 10764
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f530ceb387aab340800000000000000
+      internalID: 4880397330492175856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_43
+      rect:
+        serializedVersion: 2
+        x: 11020
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d03a4f4b6acb2610800000000000000
+      internalID: 1597593055073546454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_44
+      rect:
+        serializedVersion: 2
+        x: 11276
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0145192c0c5204650800000000000000
+      internalID: 6215008995599537168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_45
+      rect:
+        serializedVersion: 2
+        x: 11532
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f68d914a408fd0a0800000000000000
+      internalID: -6854619051417827598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_46
+      rect:
+        serializedVersion: 2
+        x: 11788
+        y: 12
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b4fd9b6f8887360800000000000000
+      internalID: 7167629400221895538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_47
+      rect:
+        serializedVersion: 2
+        x: 12044
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1674c433703d5a0800000000000000
+      internalID: -6497841920461020758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_48
+      rect:
+        serializedVersion: 2
+        x: 12300
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a1cec67a2b350e0800000000000000
+      internalID: -2282284153990014428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars_nasa_model_horizontal_strip_50frames_256_49
+      rect:
+        serializedVersion: 2
+        x: 12556
+        y: 12
+        width: 233
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178c6b7cacff9df40800000000000000
+      internalID: 5753911245341640817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mars_nasa_model_horizontal_strip_50frames_256_0: 1467592034593317213
+      mars_nasa_model_horizontal_strip_50frames_256_1: 779654177424604749
+      mars_nasa_model_horizontal_strip_50frames_256_10: -7298992005604653878
+      mars_nasa_model_horizontal_strip_50frames_256_11: -1536792235929735440
+      mars_nasa_model_horizontal_strip_50frames_256_12: -7397990504757907995
+      mars_nasa_model_horizontal_strip_50frames_256_13: 7954379719318692653
+      mars_nasa_model_horizontal_strip_50frames_256_14: -1596100651112736103
+      mars_nasa_model_horizontal_strip_50frames_256_15: 7347049026381181368
+      mars_nasa_model_horizontal_strip_50frames_256_16: 5305070000932397624
+      mars_nasa_model_horizontal_strip_50frames_256_17: -7441876424809604145
+      mars_nasa_model_horizontal_strip_50frames_256_18: 8615221575239003641
+      mars_nasa_model_horizontal_strip_50frames_256_19: -8367426688556506755
+      mars_nasa_model_horizontal_strip_50frames_256_2: -7791060669850709393
+      mars_nasa_model_horizontal_strip_50frames_256_20: -6024026447709956130
+      mars_nasa_model_horizontal_strip_50frames_256_21: -7956195606460786980
+      mars_nasa_model_horizontal_strip_50frames_256_22: -3587019921559917188
+      mars_nasa_model_horizontal_strip_50frames_256_23: 7287540211564131759
+      mars_nasa_model_horizontal_strip_50frames_256_24: -4182200227082789641
+      mars_nasa_model_horizontal_strip_50frames_256_25: -3059193397751413221
+      mars_nasa_model_horizontal_strip_50frames_256_26: -3598333068112379651
+      mars_nasa_model_horizontal_strip_50frames_256_27: -6760060954865889228
+      mars_nasa_model_horizontal_strip_50frames_256_28: 8646848506346662932
+      mars_nasa_model_horizontal_strip_50frames_256_29: 2113726006797100247
+      mars_nasa_model_horizontal_strip_50frames_256_3: 1150216126107192741
+      mars_nasa_model_horizontal_strip_50frames_256_30: -1018511834024898498
+      mars_nasa_model_horizontal_strip_50frames_256_31: 272024885974594725
+      mars_nasa_model_horizontal_strip_50frames_256_32: 808296037578620064
+      mars_nasa_model_horizontal_strip_50frames_256_33: 4245032609208954203
+      mars_nasa_model_horizontal_strip_50frames_256_34: -3350310677917792096
+      mars_nasa_model_horizontal_strip_50frames_256_35: 5515870198014310459
+      mars_nasa_model_horizontal_strip_50frames_256_36: -5941026436171905216
+      mars_nasa_model_horizontal_strip_50frames_256_37: 6379837980136660687
+      mars_nasa_model_horizontal_strip_50frames_256_38: 3140973576288880693
+      mars_nasa_model_horizontal_strip_50frames_256_39: 6288654891613039373
+      mars_nasa_model_horizontal_strip_50frames_256_4: 1653677375245413093
+      mars_nasa_model_horizontal_strip_50frames_256_40: 8293763718691010605
+      mars_nasa_model_horizontal_strip_50frames_256_41: 8641531383315808843
+      mars_nasa_model_horizontal_strip_50frames_256_42: 4880397330492175856
+      mars_nasa_model_horizontal_strip_50frames_256_43: 1597593055073546454
+      mars_nasa_model_horizontal_strip_50frames_256_44: 6215008995599537168
+      mars_nasa_model_horizontal_strip_50frames_256_45: -6854619051417827598
+      mars_nasa_model_horizontal_strip_50frames_256_46: 7167629400221895538
+      mars_nasa_model_horizontal_strip_50frames_256_47: -6497841920461020758
+      mars_nasa_model_horizontal_strip_50frames_256_48: -2282284153990014428
+      mars_nasa_model_horizontal_strip_50frames_256_49: 5753911245341640817
+      mars_nasa_model_horizontal_strip_50frames_256_5: 2383856903731867227
+      mars_nasa_model_horizontal_strip_50frames_256_6: 5154646800087979557
+      mars_nasa_model_horizontal_strip_50frames_256_7: 3583312857087074166
+      mars_nasa_model_horizontal_strip_50frames_256_8: 8050353880056184373
+      mars_nasa_model_horizontal_strip_50frames_256_9: -7895248949529013398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

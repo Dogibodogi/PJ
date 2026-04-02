@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 24e7055c7d1c1314ead0c8581316f0a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7744248786713739456
+    second: planet_self_spin_horizontal_strip_50frames_256_0
+  - first:
+      213: -7452893778225650716
+    second: planet_self_spin_horizontal_strip_50frames_256_1
+  - first:
+      213: 6741695788781817312
+    second: planet_self_spin_horizontal_strip_50frames_256_2
+  - first:
+      213: 5475063032124214031
+    second: planet_self_spin_horizontal_strip_50frames_256_3
+  - first:
+      213: 4358522726222752612
+    second: planet_self_spin_horizontal_strip_50frames_256_4
+  - first:
+      213: 731138017227237263
+    second: planet_self_spin_horizontal_strip_50frames_256_5
+  - first:
+      213: 7035480951861668033
+    second: planet_self_spin_horizontal_strip_50frames_256_6
+  - first:
+      213: -5824842700213965191
+    second: planet_self_spin_horizontal_strip_50frames_256_7
+  - first:
+      213: -5244383381464565287
+    second: planet_self_spin_horizontal_strip_50frames_256_8
+  - first:
+      213: 1754532179328671592
+    second: planet_self_spin_horizontal_strip_50frames_256_9
+  - first:
+      213: -8359169931132383809
+    second: planet_self_spin_horizontal_strip_50frames_256_10
+  - first:
+      213: -178179307237577515
+    second: planet_self_spin_horizontal_strip_50frames_256_11
+  - first:
+      213: 4208872690835176937
+    second: planet_self_spin_horizontal_strip_50frames_256_12
+  - first:
+      213: 9136875371721676306
+    second: planet_self_spin_horizontal_strip_50frames_256_13
+  - first:
+      213: -8705004724031438962
+    second: planet_self_spin_horizontal_strip_50frames_256_14
+  - first:
+      213: -1733610329400006685
+    second: planet_self_spin_horizontal_strip_50frames_256_15
+  - first:
+      213: -4602567783628920949
+    second: planet_self_spin_horizontal_strip_50frames_256_16
+  - first:
+      213: 5572939192702512285
+    second: planet_self_spin_horizontal_strip_50frames_256_17
+  - first:
+      213: -7855599153327014829
+    second: planet_self_spin_horizontal_strip_50frames_256_18
+  - first:
+      213: -5473479023520215588
+    second: planet_self_spin_horizontal_strip_50frames_256_19
+  - first:
+      213: -847295071234273883
+    second: planet_self_spin_horizontal_strip_50frames_256_20
+  - first:
+      213: 4054902538657648169
+    second: planet_self_spin_horizontal_strip_50frames_256_21
+  - first:
+      213: 1667893374001627115
+    second: planet_self_spin_horizontal_strip_50frames_256_22
+  - first:
+      213: 7695356435059922378
+    second: planet_self_spin_horizontal_strip_50frames_256_23
+  - first:
+      213: -4445861106433398956
+    second: planet_self_spin_horizontal_strip_50frames_256_24
+  - first:
+      213: -1130175169987694315
+    second: planet_self_spin_horizontal_strip_50frames_256_25
+  - first:
+      213: -2366852819852372379
+    second: planet_self_spin_horizontal_strip_50frames_256_26
+  - first:
+      213: -225026315892873043
+    second: planet_self_spin_horizontal_strip_50frames_256_27
+  - first:
+      213: 6168502672574914488
+    second: planet_self_spin_horizontal_strip_50frames_256_28
+  - first:
+      213: -5856364287720344636
+    second: planet_self_spin_horizontal_strip_50frames_256_29
+  - first:
+      213: 8273502271802610170
+    second: planet_self_spin_horizontal_strip_50frames_256_30
+  - first:
+      213: 2704272390976572123
+    second: planet_self_spin_horizontal_strip_50frames_256_31
+  - first:
+      213: 5983165595303904657
+    second: planet_self_spin_horizontal_strip_50frames_256_32
+  - first:
+      213: -5163435088772372455
+    second: planet_self_spin_horizontal_strip_50frames_256_33
+  - first:
+      213: -2776358938394755309
+    second: planet_self_spin_horizontal_strip_50frames_256_34
+  - first:
+      213: -3393732784214901313
+    second: planet_self_spin_horizontal_strip_50frames_256_35
+  - first:
+      213: -2660665643230065262
+    second: planet_self_spin_horizontal_strip_50frames_256_36
+  - first:
+      213: 1854320454333121580
+    second: planet_self_spin_horizontal_strip_50frames_256_37
+  - first:
+      213: -8856152676136630613
+    second: planet_self_spin_horizontal_strip_50frames_256_38
+  - first:
+      213: -2157913826038728335
+    second: planet_self_spin_horizontal_strip_50frames_256_39
+  - first:
+      213: -7909549514173927452
+    second: planet_self_spin_horizontal_strip_50frames_256_40
+  - first:
+      213: -7974905796384383070
+    second: planet_self_spin_horizontal_strip_50frames_256_41
+  - first:
+      213: 7364385296992899086
+    second: planet_self_spin_horizontal_strip_50frames_256_42
+  - first:
+      213: -8689648214993454609
+    second: planet_self_spin_horizontal_strip_50frames_256_43
+  - first:
+      213: -2586083887813998298
+    second: planet_self_spin_horizontal_strip_50frames_256_44
+  - first:
+      213: -6310803775614213723
+    second: planet_self_spin_horizontal_strip_50frames_256_45
+  - first:
+      213: -5742624258430691021
+    second: planet_self_spin_horizontal_strip_50frames_256_46
+  - first:
+      213: -1287278107103721640
+    second: planet_self_spin_horizontal_strip_50frames_256_47
+  - first:
+      213: -5437738015048213680
+    second: planet_self_spin_horizontal_strip_50frames_256_48
+  - first:
+      213: 8028816876568119348
+    second: planet_self_spin_horizontal_strip_50frames_256_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f7daf52c6e68490800000000000000
+      internalID: -7744248786713739456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e324288890029890800000000000000
+      internalID: -7452893778225650716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed4612d9905f8d50800000000000000
+      internalID: 6741695788781817312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b03a0d1d45bfb40800000000000000
+      internalID: 5475063032124214031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_4
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b69f9b3559c7c30800000000000000
+      internalID: 4358522726222752612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_5
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87ec962726852a00800000000000000
+      internalID: 731138017227237263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_6
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8edbf66ac03a160800000000000000
+      internalID: 7035480951861668033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_7
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e283dec600a2fa0800000000000000
+      internalID: -5824842700213965191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_8
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b7d9b9153837b0800000000000000
+      internalID: -5244383381464565287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_9
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f90ef98b9595810800000000000000
+      internalID: 1754532179328671592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_10
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd4ab58c334efb80800000000000000
+      internalID: -8359169931132383809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_11
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc67c53ddaf68df0800000000000000
+      internalID: -178179307237577515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_12
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edb21aa96be86a30800000000000000
+      internalID: 4208872690835176937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_13
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2165c78cdb3bcce70800000000000000
+      internalID: 9136875371721676306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_14
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f3208135c913780800000000000000
+      internalID: -8705004724031438962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_15
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e72a29279af0f7e0800000000000000
+      internalID: -1733610329400006685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_16
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87242a7cf46020c0800000000000000
+      internalID: -4602567783628920949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_17
+      rect:
+        serializedVersion: 2
+        x: 4373
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ca2e74bae075d40800000000000000
+      internalID: 5572939192702512285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_18
+      rect:
+        serializedVersion: 2
+        x: 4629
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c7518d03e4bf290800000000000000
+      internalID: -7855599153327014829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_19
+      rect:
+        serializedVersion: 2
+        x: 4885
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd868de3db4a04b0800000000000000
+      internalID: -5473479023520215588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_20
+      rect:
+        serializedVersion: 2
+        x: 5141
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad44233f9dcd34f0800000000000000
+      internalID: -847295071234273883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_21
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ec4870068e54830800000000000000
+      internalID: 4054902538657648169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_22
+      rect:
+        serializedVersion: 2
+        x: 5653
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef3890df2c852710800000000000000
+      internalID: 1667893374001627115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_23
+      rect:
+        serializedVersion: 2
+        x: 5909
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac553cbe7e56bca60800000000000000
+      internalID: 7695356435059922378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_24
+      rect:
+        serializedVersion: 2
+        x: 6165
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457ef4ef0e02d42c0800000000000000
+      internalID: -4445861106433398956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_25
+      rect:
+        serializedVersion: 2
+        x: 6421
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511baeabbafc050f0800000000000000
+      internalID: -1130175169987694315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_26
+      rect:
+        serializedVersion: 2
+        x: 6677
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566511586ef372fd0800000000000000
+      internalID: -2366852819852372379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_27
+      rect:
+        serializedVersion: 2
+        x: 6933
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8271802cb80ecf0800000000000000
+      internalID: -225026315892873043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_28
+      rect:
+        serializedVersion: 2
+        x: 7189
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf10e2af7cea9550800000000000000
+      internalID: 6168502672574914488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_29
+      rect:
+        serializedVersion: 2
+        x: 7445
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3352b65b30abea0800000000000000
+      internalID: -5856364287720344636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_30
+      rect:
+        serializedVersion: 2
+        x: 7701
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af19e273b7261d270800000000000000
+      internalID: 8273502271802610170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_31
+      rect:
+        serializedVersion: 2
+        x: 7957
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0e086961878520800000000000000
+      internalID: 2704272390976572123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_32
+      rect:
+        serializedVersion: 2
+        x: 8213
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1958d64a869780350800000000000000
+      internalID: 5983165595303904657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_33
+      rect:
+        serializedVersion: 2
+        x: 8469
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9186fe0d42bc758b0800000000000000
+      internalID: -5163435088772372455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_34
+      rect:
+        serializedVersion: 2
+        x: 8725
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ffffb51446879d0800000000000000
+      internalID: -2776358938394755309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_35
+      rect:
+        serializedVersion: 2
+        x: 8981
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdf546730a07e0d0800000000000000
+      internalID: -3393732784214901313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_36
+      rect:
+        serializedVersion: 2
+        x: 9237
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d8f2db1ba631bd0800000000000000
+      internalID: -2660665643230065262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_37
+      rect:
+        serializedVersion: 2
+        x: 9493
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24444ce0aedbb910800000000000000
+      internalID: 1854320454333121580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_38
+      rect:
+        serializedVersion: 2
+        x: 9749
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6404e1010a81580800000000000000
+      internalID: -8856152676136630613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_39
+      rect:
+        serializedVersion: 2
+        x: 10005
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179be0feecc8d02e0800000000000000
+      internalID: -2157913826038728335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_40
+      rect:
+        serializedVersion: 2
+        x: 10261
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efac4a9f92ab3290800000000000000
+      internalID: -7909549514173927452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_41
+      rect:
+        serializedVersion: 2
+        x: 10517
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af1e495e61735190800000000000000
+      internalID: -7974905796384383070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_42
+      rect:
+        serializedVersion: 2
+        x: 10773
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e001f50d86d833660800000000000000
+      internalID: 7364385296992899086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_43
+      rect:
+        serializedVersion: 2
+        x: 11029
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9353afcfa286780800000000000000
+      internalID: -8689648214993454609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_44
+      rect:
+        serializedVersion: 2
+        x: 11285
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6294c7bd7626c1cd0800000000000000
+      internalID: -2586083887813998298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_45
+      rect:
+        serializedVersion: 2
+        x: 11541
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a12253f6658b68a0800000000000000
+      internalID: -6310803775614213723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_46
+      rect:
+        serializedVersion: 2
+        x: 11797
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33992b5a9a91e40b0800000000000000
+      internalID: -5742624258430691021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_47
+      rect:
+        serializedVersion: 2
+        x: 12053
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85702f2c16ba22ee0800000000000000
+      internalID: -1287278107103721640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_48
+      rect:
+        serializedVersion: 2
+        x: 12309
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bd96fe5164984b0800000000000000
+      internalID: -5437738015048213680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planet_self_spin_horizontal_strip_50frames_256_49
+      rect:
+        serializedVersion: 2
+        x: 12565
+        y: 21
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438018629661c6f60800000000000000
+      internalID: 8028816876568119348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      planet_self_spin_horizontal_strip_50frames_256_0: -7744248786713739456
+      planet_self_spin_horizontal_strip_50frames_256_1: -7452893778225650716
+      planet_self_spin_horizontal_strip_50frames_256_10: -8359169931132383809
+      planet_self_spin_horizontal_strip_50frames_256_11: -178179307237577515
+      planet_self_spin_horizontal_strip_50frames_256_12: 4208872690835176937
+      planet_self_spin_horizontal_strip_50frames_256_13: 9136875371721676306
+      planet_self_spin_horizontal_strip_50frames_256_14: -8705004724031438962
+      planet_self_spin_horizontal_strip_50frames_256_15: -1733610329400006685
+      planet_self_spin_horizontal_strip_50frames_256_16: -4602567783628920949
+      planet_self_spin_horizontal_strip_50frames_256_17: 5572939192702512285
+      planet_self_spin_horizontal_strip_50frames_256_18: -7855599153327014829
+      planet_self_spin_horizontal_strip_50frames_256_19: -5473479023520215588
+      planet_self_spin_horizontal_strip_50frames_256_2: 6741695788781817312
+      planet_self_spin_horizontal_strip_50frames_256_20: -847295071234273883
+      planet_self_spin_horizontal_strip_50frames_256_21: 4054902538657648169
+      planet_self_spin_horizontal_strip_50frames_256_22: 1667893374001627115
+      planet_self_spin_horizontal_strip_50frames_256_23: 7695356435059922378
+      planet_self_spin_horizontal_strip_50frames_256_24: -4445861106433398956
+      planet_self_spin_horizontal_strip_50frames_256_25: -1130175169987694315
+      planet_self_spin_horizontal_strip_50frames_256_26: -2366852819852372379
+      planet_self_spin_horizontal_strip_50frames_256_27: -225026315892873043
+      planet_self_spin_horizontal_strip_50frames_256_28: 6168502672574914488
+      planet_self_spin_horizontal_strip_50frames_256_29: -5856364287720344636
+      planet_self_spin_horizontal_strip_50frames_256_3: 5475063032124214031
+      planet_self_spin_horizontal_strip_50frames_256_30: 8273502271802610170
+      planet_self_spin_horizontal_strip_50frames_256_31: 2704272390976572123
+      planet_self_spin_horizontal_strip_50frames_256_32: 5983165595303904657
+      planet_self_spin_horizontal_strip_50frames_256_33: -5163435088772372455
+      planet_self_spin_horizontal_strip_50frames_256_34: -2776358938394755309
+      planet_self_spin_horizontal_strip_50frames_256_35: -3393732784214901313
+      planet_self_spin_horizontal_strip_50frames_256_36: -2660665643230065262
+      planet_self_spin_horizontal_strip_50frames_256_37: 1854320454333121580
+      planet_self_spin_horizontal_strip_50frames_256_38: -8856152676136630613
+      planet_self_spin_horizontal_strip_50frames_256_39: -2157913826038728335
+      planet_self_spin_horizontal_strip_50frames_256_4: 4358522726222752612
+      planet_self_spin_horizontal_strip_50frames_256_40: -7909549514173927452
+      planet_self_spin_horizontal_strip_50frames_256_41: -7974905796384383070
+      planet_self_spin_horizontal_strip_50frames_256_42: 7364385296992899086
+      planet_self_spin_horizontal_strip_50frames_256_43: -8689648214993454609
+      planet_self_spin_horizontal_strip_50frames_256_44: -2586083887813998298
+      planet_self_spin_horizontal_strip_50frames_256_45: -6310803775614213723
+      planet_self_spin_horizontal_strip_50frames_256_46: -5742624258430691021
+      planet_self_spin_horizontal_strip_50frames_256_47: -1287278107103721640
+      planet_self_spin_horizontal_strip_50frames_256_48: -5437738015048213680
+      planet_self_spin_horizontal_strip_50frames_256_49: 8028816876568119348
+      planet_self_spin_horizontal_strip_50frames_256_5: 731138017227237263
+      planet_self_spin_horizontal_strip_50frames_256_6: 7035480951861668033
+      planet_self_spin_horizontal_strip_50frames_256_7: -5824842700213965191
+      planet_self_spin_horizontal_strip_50frames_256_8: -5244383381464565287
+      planet_self_spin_horizontal_strip_50frames_256_9: 1754532179328671592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
