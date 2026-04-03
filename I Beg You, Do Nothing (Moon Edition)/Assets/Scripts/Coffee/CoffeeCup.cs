@@ -10,7 +10,9 @@ public class CoffeeCup : MonoBehaviour, IPointerClickHandler
     public GameObject normalCup;
     public GameObject spilledCup;
     public GameObject spillClickArea;
-    public GameObject panelCover;
+
+    // We changed this from panelCover to brokenWires
+    public GameObject brokenWires;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -38,9 +40,10 @@ public class CoffeeCup : MonoBehaviour, IPointerClickHandler
         if (spillClickArea != null)
             spillClickArea.SetActive(true);
 
-        if (panelCover != null)
-            panelCover.SetActive(false);
+        // This now activates the wires instead of hiding a panel
+        if (brokenWires != null)
+            brokenWires.SetActive(true);
 
-        Debug.Log("Coffee spilled!");
+        Debug.Log("Coffee spilled and wires revealed!");
     }
 }

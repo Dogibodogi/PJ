@@ -49,8 +49,10 @@ public class WirePuzzleUI : MonoBehaviour
                 GameObject lineObj = Instantiate(linePrefab, lineContainer);
                 RectTransform lineRect = lineObj.GetComponent<RectTransform>();
 
-                Vector2 startPos = selectedLeftPoint.rectTransform.anchoredPosition;
-                Vector2 endPos = rightPoint.rectTransform.anchoredPosition;
+                // FIX 1: Ignore the folders! Convert the exact 3D world position of the points 
+                // directly into the local coordinates of the LineContainer.
+                Vector2 startPos = lineContainer.InverseTransformPoint(selectedLeftPoint.rectTransform.position);
+                Vector2 endPos = lineContainer.InverseTransformPoint(rightPoint.rectTransform.position);
 
                 UpdateLine(lineRect, startPos, endPos);
 
@@ -110,11 +112,18 @@ public class WirePuzzleUI : MonoBehaviour
 
     private void UpdateLine(RectTransform line, Vector2 start, Vector2 end)
     {
+        // FIX 2: Force the line's pivot to the absolute left edge via code 
+        // so it perfectly anchors to the starting click.
+        line.pivot = new Vector2(0f, 0.5f);
+
         Vector2 direction = end - start;
         float length = direction.magnitude;
 
         line.sizeDelta = new Vector2(length, 8f);
-        line.anchoredPosition = start + direction / 2f;
+
+        // Place the start of the line exactly on the start coordinate
+        line.anchoredPosition = start;
+
         line.localRotation = Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
     }
 }
