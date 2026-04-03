@@ -72,11 +72,6 @@ public class UVLightTool : InteractableTool, IBeginDragHandler, IDragHandler, IE
             spotRectTransform.anchoredPosition = spotOffset;
         }
 
-        // Update the switch button sprite
-        if (switchImage != null)
-        {
-            switchImage.sprite = isUVLightOn ? switchOnSprite : switchOffSprite;
-        }
     }
 
     public Vector2 GetSpotWorldPosition()
