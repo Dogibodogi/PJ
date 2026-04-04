@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: a17cece3c99038143bcddffc1f23ce6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1682427002807640152
+    second: MarsStrip_0
+  - first:
+      213: 6240646361212189391
+    second: MarsStrip_1
+  - first:
+      213: 516465150330018074
+    second: MarsStrip_2
+  - first:
+      213: -3045735871882840948
+    second: MarsStrip_3
+  - first:
+      213: 5833929856730589907
+    second: MarsStrip_4
+  - first:
+      213: -8947652485951887970
+    second: MarsStrip_5
+  - first:
+      213: 2196174930703132637
+    second: MarsStrip_6
+  - first:
+      213: 5089217986617583652
+    second: MarsStrip_7
+  - first:
+      213: 3883235518102578412
+    second: MarsStrip_8
+  - first:
+      213: 5260994813972249277
+    second: MarsStrip_9
+  - first:
+      213: 1155027766200412603
+    second: MarsStrip_10
+  - first:
+      213: -8114874151296212705
+    second: MarsStrip_11
+  - first:
+      213: -2825877777192270154
+    second: MarsStrip_12
+  - first:
+      213: -5066520354406624725
+    second: MarsStrip_13
+  - first:
+      213: -6800178308208498255
+    second: MarsStrip_14
+  - first:
+      213: 6081788800168124214
+    second: MarsStrip_15
+  - first:
+      213: 2182347350200265407
+    second: MarsStrip_16
+  - first:
+      213: -5831325558950171972
+    second: MarsStrip_17
+  - first:
+      213: -660784209400444972
+    second: MarsStrip_18
+  - first:
+      213: 4213229528583416434
+    second: MarsStrip_19
+  - first:
+      213: -2829837811352922499
+    second: MarsStrip_20
+  - first:
+      213: -8661554326177434812
+    second: MarsStrip_21
+  - first:
+      213: 7416237446992126989
+    second: MarsStrip_22
+  - first:
+      213: 7417371967646968701
+    second: MarsStrip_23
+  - first:
+      213: 1385315028702029336
+    second: MarsStrip_24
+  - first:
+      213: 8453751323571147853
+    second: MarsStrip_25
+  - first:
+      213: -6366626973459742416
+    second: MarsStrip_26
+  - first:
+      213: 3249933467696226943
+    second: MarsStrip_27
+  - first:
+      213: 866648020081491508
+    second: MarsStrip_28
+  - first:
+      213: -367353578155421882
+    second: MarsStrip_29
+  - first:
+      213: -1085650738211794550
+    second: MarsStrip_30
+  - first:
+      213: 6707175352324648869
+    second: MarsStrip_31
+  - first:
+      213: 6013343909687014789
+    second: MarsStrip_32
+  - first:
+      213: 7810046253449118203
+    second: MarsStrip_33
+  - first:
+      213: 2981138761761109113
+    second: MarsStrip_34
+  - first:
+      213: -420972379624151991
+    second: MarsStrip_35
+  - first:
+      213: -1732965174318594304
+    second: MarsStrip_36
+  - first:
+      213: -707845983780090369
+    second: MarsStrip_37
+  - first:
+      213: -4905020567369536246
+    second: MarsStrip_38
+  - first:
+      213: 8763078248076870941
+    second: MarsStrip_39
+  - first:
+      213: 3439781059817851312
+    second: MarsStrip_40
+  - first:
+      213: 4458241447385929893
+    second: MarsStrip_41
+  - first:
+      213: -629656499278616177
+    second: MarsStrip_42
+  - first:
+      213: 2829137928355892584
+    second: MarsStrip_43
+  - first:
+      213: -1881065359761485758
+    second: MarsStrip_44
+  - first:
+      213: -1849061980712995878
+    second: MarsStrip_45
+  - first:
+      213: -4452896439368442795
+    second: MarsStrip_46
+  - first:
+      213: -5870499204012154543
+    second: MarsStrip_47
+  - first:
+      213: -6347607922085711284
+    second: MarsStrip_48
+  - first:
+      213: 3160485112555824608
+    second: MarsStrip_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarsStrip_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850efd6f17e295710800000000000000
+      internalID: 1682427002807640152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf2e81dca3b9650800000000000000
+      internalID: 6240646361212189391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191a40615ada2700800000000000000
+      internalID: 516465150330018074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8432cc8c5f5bb5d0800000000000000
+      internalID: -3045735871882840948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dae8f29b4846f050800000000000000
+      internalID: 5833929856730589907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_5
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e956231887d83d380800000000000000
+      internalID: -8947652485951887970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_6
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7ad21b6716a7e10800000000000000
+      internalID: 2196174930703132637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_7
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428aed48bc880a640800000000000000
+      internalID: 5089217986617583652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_8
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce42fa3212604e530800000000000000
+      internalID: 3883235518102578412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_9
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbafcfbc8eec20940800000000000000
+      internalID: 5260994813972249277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_10
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a61e32ab770010800000000000000
+      internalID: 1155027766200412603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_11
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f116dfe24fc226f80800000000000000
+      internalID: -8114874151296212705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_12
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6c8cf322778c8d0800000000000000
+      internalID: -2825877777192270154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_13
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b229e4cc49a10b9b0800000000000000
+      internalID: -5066520354406624725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_14
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b96ae98bd9e0a1a0800000000000000
+      internalID: -6800178308208498255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_15
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f58f8e0bad66450800000000000000
+      internalID: 6081788800168124214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_16
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaa3393a51494e10800000000000000
+      internalID: 2182347350200265407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_17
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba6e11cc48f21fa0800000000000000
+      internalID: -5831325558950171972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_18
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7cf75334c64d6f0800000000000000
+      internalID: -660784209400444972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_19
+      rect:
+        serializedVersion: 2
+        x: 4891
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aa6600fe5687a30800000000000000
+      internalID: 4213229528583416434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_20
+      rect:
+        serializedVersion: 2
+        x: 5147
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d761752f0856ab8d0800000000000000
+      internalID: -2829837811352922499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_21
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44332713b3afbc780800000000000000
+      internalID: -8661554326177434812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_22
+      rect:
+        serializedVersion: 2
+        x: 5659
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d046ae54aa4cbe660800000000000000
+      internalID: 7416237446992126989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_23
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ba982718ccfe660800000000000000
+      internalID: 7417371967646968701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_24
+      rect:
+        serializedVersion: 2
+        x: 6171
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8166bcbcda0a93310800000000000000
+      internalID: 1385315028702029336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_25
+      rect:
+        serializedVersion: 2
+        x: 6427
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4452f4f902c15570800000000000000
+      internalID: 8453751323571147853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_26
+      rect:
+        serializedVersion: 2
+        x: 6683
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031038ddf7235a7a0800000000000000
+      internalID: -6366626973459742416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_27
+      rect:
+        serializedVersion: 2
+        x: 6939
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72efad15451a1d20800000000000000
+      internalID: 3249933467696226943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_28
+      rect:
+        serializedVersion: 2
+        x: 7195
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb04658c3f60c00800000000000000
+      internalID: 866648020081491508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_29
+      rect:
+        serializedVersion: 2
+        x: 7451
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fc313fdd5e6eaf0800000000000000
+      internalID: -367353578155421882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_30
+      rect:
+        serializedVersion: 2
+        x: 7707
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81deb6d76efee0f0800000000000000
+      internalID: -1085650738211794550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_31
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe091627ca41d50800000000000000
+      internalID: 6707175352324648869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_32
+      rect:
+        serializedVersion: 2
+        x: 8219
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58537210d60b37350800000000000000
+      internalID: 6013343909687014789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_33
+      rect:
+        serializedVersion: 2
+        x: 8475
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1843820bbd26c60800000000000000
+      internalID: 7810046253449118203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_34
+      rect:
+        serializedVersion: 2
+        x: 8731
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9743be8b8e12f5920800000000000000
+      internalID: 2981138761761109113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_35
+      rect:
+        serializedVersion: 2
+        x: 8987
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9446044e9d7682af0800000000000000
+      internalID: -420972379624151991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_36
+      rect:
+        serializedVersion: 2
+        x: 9243
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0070e980b5543f7e0800000000000000
+      internalID: -1732965174318594304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_37
+      rect:
+        serializedVersion: 2
+        x: 9499
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc91df3d93d26f0800000000000000
+      internalID: -707845983780090369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_38
+      rect:
+        serializedVersion: 2
+        x: 9755
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d24f928cdddebb0800000000000000
+      internalID: -4905020567369536246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_39
+      rect:
+        serializedVersion: 2
+        x: 10011
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d150393ec35bc9970800000000000000
+      internalID: 8763078248076870941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_40
+      rect:
+        serializedVersion: 2
+        x: 10267
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b94f8f26ae8cbf20800000000000000
+      internalID: 3439781059817851312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_41
+      rect:
+        serializedVersion: 2
+        x: 10523
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a89c52c9fadedd30800000000000000
+      internalID: 4458241447385929893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_42
+      rect:
+        serializedVersion: 2
+        x: 10779
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f896bfdffb20347f0800000000000000
+      internalID: -629656499278616177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_43
+      rect:
+        serializedVersion: 2
+        x: 11035
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86dcc38d4fd134720800000000000000
+      internalID: 2829137928355892584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_44
+      rect:
+        serializedVersion: 2
+        x: 11291
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240df18850d15e5e0800000000000000
+      internalID: -1881065359761485758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_45
+      rect:
+        serializedVersion: 2
+        x: 11547
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3fbefdcefc656e0800000000000000
+      internalID: -1849061980712995878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_46
+      rect:
+        serializedVersion: 2
+        x: 11803
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c97d5e7422432c0800000000000000
+      internalID: -4452896439368442795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_47
+      rect:
+        serializedVersion: 2
+        x: 12059
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15164a2c31cc78ea0800000000000000
+      internalID: -5870499204012154543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_48
+      rect:
+        serializedVersion: 2
+        x: 12315
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4230a6d934c8e7a0800000000000000
+      internalID: -6347607922085711284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarsStrip_49
+      rect:
+        serializedVersion: 2
+        x: 12571
+        y: 27
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5ecc3077c4cdb20800000000000000
+      internalID: 3160485112555824608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MarsStrip_0: 1682427002807640152
+      MarsStrip_1: 6240646361212189391
+      MarsStrip_10: 1155027766200412603
+      MarsStrip_11: -8114874151296212705
+      MarsStrip_12: -2825877777192270154
+      MarsStrip_13: -5066520354406624725
+      MarsStrip_14: -6800178308208498255
+      MarsStrip_15: 6081788800168124214
+      MarsStrip_16: 2182347350200265407
+      MarsStrip_17: -5831325558950171972
+      MarsStrip_18: -660784209400444972
+      MarsStrip_19: 4213229528583416434
+      MarsStrip_2: 516465150330018074
+      MarsStrip_20: -2829837811352922499
+      MarsStrip_21: -8661554326177434812
+      MarsStrip_22: 7416237446992126989
+      MarsStrip_23: 7417371967646968701
+      MarsStrip_24: 1385315028702029336
+      MarsStrip_25: 8453751323571147853
+      MarsStrip_26: -6366626973459742416
+      MarsStrip_27: 3249933467696226943
+      MarsStrip_28: 866648020081491508
+      MarsStrip_29: -367353578155421882
+      MarsStrip_3: -3045735871882840948
+      MarsStrip_30: -1085650738211794550
+      MarsStrip_31: 6707175352324648869
+      MarsStrip_32: 6013343909687014789
+      MarsStrip_33: 7810046253449118203
+      MarsStrip_34: 2981138761761109113
+      MarsStrip_35: -420972379624151991
+      MarsStrip_36: -1732965174318594304
+      MarsStrip_37: -707845983780090369
+      MarsStrip_38: -4905020567369536246
+      MarsStrip_39: 8763078248076870941
+      MarsStrip_4: 5833929856730589907
+      MarsStrip_40: 3439781059817851312
+      MarsStrip_41: 4458241447385929893
+      MarsStrip_42: -629656499278616177
+      MarsStrip_43: 2829137928355892584
+      MarsStrip_44: -1881065359761485758
+      MarsStrip_45: -1849061980712995878
+      MarsStrip_46: -4452896439368442795
+      MarsStrip_47: -5870499204012154543
+      MarsStrip_48: -6347607922085711284
+      MarsStrip_49: 3160485112555824608
+      MarsStrip_5: -8947652485951887970
+      MarsStrip_6: 2196174930703132637
+      MarsStrip_7: 5089217986617583652
+      MarsStrip_8: 3883235518102578412
+      MarsStrip_9: 5260994813972249277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
