@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: cdec6fad7fa1c5c4f9ab3b27c4e414e6
+guid: b645131399bf7a241862afc87f7d506e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6428166142877655420
-    second: codescreen_0
-  - first:
-      213: -8188855751735205662
-    second: codescreen_1
-  - first:
-      213: -2938700006683838600
-    second: codescreen_2
+      213: 2018693933002636194
+    second: NewDesk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: codescreen_0
+      name: NewDesk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 15
         y: 0
-        width: 1526
-        height: 1024
+        width: 1938
+        height: 1365
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c716a6f8c0f653950800000000000000
-      internalID: 6428166142877655420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: codescreen_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 710
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e0a8e884175b5e80800000000000000
-      internalID: -8188855751735205662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: codescreen_2
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 622
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 877fb20f9e3a737d0800000000000000
-      internalID: -2938700006683838600
+      spriteID: 2abbbd2cf67d30c10800000000000000
+      internalID: 2018693933002636194
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      codescreen_0: 6428166142877655420
-      codescreen_1: -8188855751735205662
-      codescreen_2: -2938700006683838600
+      NewDesk_0: 2018693933002636194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
