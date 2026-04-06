@@ -2,33 +2,47 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
-using UnityEngine.SceneManagement; // Useful for loading the next scene
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class StoryStep
 {
-    [Header("Visuals")]
-    public Sprite background;       // Optional: Leave empty to keep the previous background
-    public Sprite characterPortrait; // Optional: Leave empty to hide character
+    [Header("UI Toggles")]
+    public bool showText = true;
+    public bool useGrayBox = true;
 
-    [Header("Text")]
-    public string characterName;    // The name shown in the small name box
+    [Header("Visuals & Animation")]
+    public Sprite background;
+    public float individualFadeDuration = 0.5f; // Set to 0 if background doesn't change
+    public Sprite characterPortrait;
+
+    [Header("Content")]
+    public string characterName;
     [TextArea(3, 10)]
-    public string dialogueLine;     // The actual text the character says
+    public string dialogueLine;
+
+    [Header("Audio")]
+    public AudioClip customTypingSound;
 }
 
 public class CutsceneManager : MonoBehaviour
 {
     [Header("UI Component References")]
     public Image backgroundImage;
+    public CanvasGroup backgroundCanvasGroup;
     public Image characterImage;
+    public Image dialogueBoxImage;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
-    public GameObject dialogueBoxParent; // The gray box containing the text
 
-    [Header("Settings")]
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip defaultTypeSound;
+    [Range(0, 0.3f)] public float pitchVariation = 0.1f;
+
+    [Header("General Settings")]
     public float typingSpeed = 0.04f;
-    public string nextSceneName;        // Name of the scene to load when finished
+    public string nextSceneName;
 
     [Header("Story Content")]
     public StoryStep[] storySteps;
@@ -36,113 +50,153 @@ public class CutsceneManager : MonoBehaviour
     private int currentIndex = 0;
     private bool isTyping = false;
     private Coroutine typingCoroutine;
+    private Coroutine fadeCoroutine;
+    private float lastClickTime = 0f;
+    private float clickCooldown = 0.15f;
 
     void Start()
     {
-        // Ensure the UI is visible and start the first step
-        if (storySteps.Length > 0)
-        {
-            UpdateUI();
-        }
-        else
-        {
-            Debug.LogError("No Story Steps found in the CutsceneManager inspector!");
-        }
+        if (storySteps.Length > 0) UpdateUI();
     }
 
-    // Call this function from your full-screen Button's OnClick() event
     public void OnScreenClick()
     {
-        if (isTyping)
+        if (Time.time - lastClickTime < clickCooldown) return;
+        lastClickTime = Time.time;
+
+        if (!storySteps[currentIndex].showText)
         {
-            // 1. If text is still typing, finish it instantly
-            CompleteTextInstantly();
-        }
-        else
-        {
-            // 2. If text is done, move to the next step
             AdvanceToNextStep();
+            return;
         }
+
+        if (isTyping) CompleteTextInstantly();
+        else AdvanceToNextStep();
     }
 
     private void AdvanceToNextStep()
     {
+        if (audioSource != null) audioSource.Stop();
         currentIndex++;
-
-        if (currentIndex < storySteps.Length)
-        {
-            UpdateUI();
-        }
-        else
-        {
-            FinishCutscene();
-        }
+        if (currentIndex < storySteps.Length) UpdateUI();
+        else FinishCutscene();
     }
 
     private void UpdateUI()
     {
         StoryStep current = storySteps[currentIndex];
 
-        // Background Logic: Only change if a new sprite is provided
-        if (current.background != null)
+        // 1. Handle Background Fade
+        // We only fade if a background is assigned AND the duration is > 0
+        if (current.background != null && current.background != backgroundImage.sprite)
         {
-            backgroundImage.sprite = current.background;
+            if (current.individualFadeDuration > 0)
+            {
+                if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+                fadeCoroutine = StartCoroutine(FadeBackground(current.background, current.individualFadeDuration));
+            }
+            else
+            {
+                // Instant swap if duration is 0
+                backgroundImage.sprite = current.background;
+                backgroundCanvasGroup.alpha = 1;
+            }
         }
 
-        // Character Logic: Show portrait if assigned, otherwise hide it
+        // 2. Portrait Logic
         if (current.characterPortrait != null)
         {
             characterImage.sprite = current.characterPortrait;
             characterImage.gameObject.SetActive(true);
         }
+        else characterImage.gameObject.SetActive(false);
+
+        // 3. Dialogue Box Logic
+        dialogueBoxImage.gameObject.SetActive(current.showText && current.useGrayBox);
+
+        if (current.showText)
+        {
+            nameText.gameObject.SetActive(true);
+            dialogueText.gameObject.SetActive(true);
+            nameText.text = current.characterName;
+
+            if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            typingCoroutine = StartCoroutine(TypeText(current.dialogueLine, current.customTypingSound));
+        }
         else
         {
-            characterImage.gameObject.SetActive(false);
+            nameText.gameObject.SetActive(false);
+            dialogueText.gameObject.SetActive(false);
         }
-
-        // Name Logic
-        if (nameText != null)
-        {
-            nameText.text = current.characterName;
-        }
-
-        // Start the Typewriter effect
-        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
-        typingCoroutine = StartCoroutine(TypeText(current.dialogueLine));
     }
 
-    private IEnumerator TypeText(string text)
+    private IEnumerator FadeBackground(Sprite newNextSprite, float duration)
+    {
+        float timer = 0;
+        // Fade Out
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            backgroundCanvasGroup.alpha = Mathf.Lerp(1, 0, timer / duration);
+            yield return null;
+        }
+
+        backgroundImage.sprite = newNextSprite;
+
+        // Fade In
+        timer = 0;
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            backgroundCanvasGroup.alpha = Mathf.Lerp(0, 1, timer / duration);
+            yield return null;
+        }
+        backgroundCanvasGroup.alpha = 1;
+    }
+
+    [Header("Advanced Audio")]
+    [Range(0.01f, 0.2f)] public float minTimeBetweenSounds = 0.06f;
+    [Range(0.1f, 0.5f)] public float baseVolume = 0.3f;
+    [Range(0f, 0.2f)] public float volumeVariation = 0.05f;
+
+    private float lastSoundPlayTime;
+
+    private IEnumerator TypeText(string text, AudioClip customSound)
     {
         isTyping = true;
         dialogueText.text = "";
+        AudioClip soundToPlay = customSound != null ? customSound : defaultTypeSound;
 
         foreach (char letter in text.ToCharArray())
         {
             dialogueText.text += letter;
+
+            if (soundToPlay != null && !char.IsWhiteSpace(letter) && Time.time - lastSoundPlayTime > minTimeBetweenSounds)
+            {
+                audioSource.pitch = Random.Range(1f - pitchVariation, 1f + pitchVariation);
+                float randomVol = Random.Range(baseVolume - volumeVariation, baseVolume + volumeVariation);
+                audioSource.PlayOneShot(soundToPlay, randomVol);
+                lastSoundPlayTime = Time.time;
+            }
             yield return new WaitForSeconds(typingSpeed);
         }
-
         isTyping = false;
+        audioSource.pitch = 1f;
     }
 
     private void CompleteTextInstantly()
     {
-        StopCoroutine(typingCoroutine);
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
         dialogueText.text = storySteps[currentIndex].dialogueLine;
         isTyping = false;
     }
 
     private void FinishCutscene()
     {
-        Debug.Log("Cutscene finished. Loading next scene...");
-
-        // Hide the UI before transitioning
-        if (dialogueBoxParent != null) dialogueBoxParent.SetActive(false);
-
-        // Change scene if a name is provided
-        if (!string.IsNullOrEmpty(nextSceneName))
-        {
-            SceneManager.LoadScene(nextSceneName);
-        }
+        if (audioSource != null) audioSource.Stop();
+        dialogueBoxImage.gameObject.SetActive(false);
+        nameText.gameObject.SetActive(false);
+        dialogueText.gameObject.SetActive(false);
+        if (!string.IsNullOrEmpty(nextSceneName)) SceneManager.LoadScene(nextSceneName);
     }
 }
