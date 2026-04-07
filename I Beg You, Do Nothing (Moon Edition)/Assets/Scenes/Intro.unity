@@ -290,7 +290,7 @@ MonoBehaviour:
   defaultTypeSound: {fileID: 8300000, guid: 76943f9db40edd244a4dd2a98d40152c, type: 3}
   pitchVariation: 0.1
   typingSpeed: 0.05
-  nextSceneName: 
+  nextSceneName: MainMenu
   storySteps:
   - showText: 1
     useGrayBox: 0
@@ -548,6 +548,94 @@ MonoBehaviour:
     characterName: 
     dialogueLine: AND WHY DOES IT LOOK SO WEIRD?
     customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2382000799175458472, guid: 4b1de160b9a7bf94aa241fd2f6a2653d, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: Did the Union send help?
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2382000799175458472, guid: 4b1de160b9a7bf94aa241fd2f6a2653d, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: I've got to get inside...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 1188514764075153063, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
+    characterName: 
+    dialogueLine: ...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 1188514764075153063, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
+    characterName: 
+    dialogueLine: Zorpi zlorp zlorb zlorp? Zlorpi!!!
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 211815976, guid: e334af55372f5f345a622688baf4d202, type: 3}
+    characterName: 
+    dialogueLine: WHAT THE??
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 938414405, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
+    characterName: 
+    dialogueLine: Zorpi slorp?
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 211815976, guid: e334af55372f5f345a622688baf4d202, type: 3}
+    characterName: 
+    dialogueLine: What are you saying?
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 1
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 2137865073, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
+    characterName: 
+    dialogueLine: ZLORPORULUS!!! SLORP!!!
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*The creature leaves*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: What just happened...?
+    customTypingSound: {fileID: 0}
+  - showText: 0
+    useGrayBox: 0
+    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    individualFadeDuration: 2
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 
+    customTypingSound: {fileID: 0}
   minTimeBetweenSounds: 0.06
   baseVolume: 0.3
   volumeVariation: 0.05
@@ -629,8 +717,8 @@ RectTransform:
   - {fileID: 1761165508}
   - {fileID: 1181220954}
   - {fileID: 298303798}
-  - {fileID: 1830448009}
   - {fileID: 625798587}
+  - {fileID: 1830448009}
   - {fileID: 1750951822}
   - {fileID: 169549159}
   m_Father: {fileID: 0}
@@ -940,6 +1028,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625798586}
   m_CullTransparentMesh: 1
+--- !u!1 &794888980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794888982}
+  - component: {fileID: 794888981}
+  m_Layer: 0
+  m_Name: BackgroundSong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &794888981
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794888980}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 6cad7647b20eca940bc1df8e15a55360, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.042
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &794888982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794888980}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1174.1926, y: 476.02887, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920893267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1472,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 30.290253, w: 0}
+  m_margin: {x: 0, y: 0, z: 53.50807, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1278,14 +1495,14 @@ RectTransform:
   m_GameObject: {fileID: 1750951819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9817734, y: 5.2381516, z: 1}
+  m_LocalScale: {x: 3.9320014, y: 5.2381516, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 193298210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 165, y: -463.74}
+  m_AnchoredPosition: {x: 273, y: -420}
   m_SizeDelta: {x: 454.3397, y: 29.118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1761165507
@@ -1443,5 +1660,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 546985999}
+  - {fileID: 794888982}
   - {fileID: 193298210}
   - {fileID: 920893270}
