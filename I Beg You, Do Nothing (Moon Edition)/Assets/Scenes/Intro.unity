@@ -372,6 +372,182 @@ MonoBehaviour:
     characterName: 
     dialogueLine: Job's done. We made history today.
     customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*For a moment, you forget about everything*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*Your friends... Your familiy...Your whole life as a human*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*Things like that do not matter anymore*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*In the grand scheme of things...We are nothing.*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: ...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: '*You snap back into reality*'
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 7909157490230493669, guid: 9df180c526f100943a167343ee8e6db2, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: It's time to leave. I gotta get back to ship.
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 1
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: Launching in 3..
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 2...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 1...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: ...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: ...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 'Why isn''t the engine igniting? '
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 1538773130006195170, guid: 4300781a3f14d5b4d945bde5dea2f5a7, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 'SON OF A *****!! '
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    individualFadeDuration: 1.5
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: There is nothing left to do. You are stuck here.
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: -5364237383851785085, guid: 1d8ec635d5f07e145af09b2a86ce49b1, type: 3}
+    individualFadeDuration: 2
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: So you just kept walking... and walking...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 6358755690234239126, guid: 5ac86a7828b2b7c4d98287672244833b, type: 3}
+    individualFadeDuration: 2
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: All hope is lost. You are gonna perish here.
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    individualFadeDuration: 2
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: The end.
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: Wait a minute...
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: WHAT'S THAT???.
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2382000799175458472, guid: 4b1de160b9a7bf94aa241fd2f6a2653d, type: 3}
+    individualFadeDuration: 1
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: WHY... IS THERE ANOTHER SHIP HERE?
+    customTypingSound: {fileID: 0}
+  - showText: 1
+    useGrayBox: 0
+    background: {fileID: 2382000799175458472, guid: 4b1de160b9a7bf94aa241fd2f6a2653d, type: 3}
+    individualFadeDuration: 0
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: AND WHY DOES IT LOOK SO WEIRD?
+    customTypingSound: {fileID: 0}
   minTimeBetweenSounds: 0.06
   baseVolume: 0.3
   volumeVariation: 0.05
@@ -1252,14 +1428,14 @@ RectTransform:
   m_GameObject: {fileID: 1830448006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 193298210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103.78519, y: 103.36047}
+  m_AnchoredPosition: {x: -815, y: -403}
   m_SizeDelta: {x: 302.4297, y: 242.7209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
