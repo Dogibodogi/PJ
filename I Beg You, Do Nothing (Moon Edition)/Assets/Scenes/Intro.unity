@@ -487,7 +487,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
-    individualFadeDuration: 1.5
+    individualFadeDuration: 1
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: There is nothing left to do. You are stuck here.
@@ -495,7 +495,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: -5364237383851785085, guid: 1d8ec635d5f07e145af09b2a86ce49b1, type: 3}
-    individualFadeDuration: 2
+    individualFadeDuration: 0
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: So you just kept walking... and walking...
@@ -503,7 +503,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: 6358755690234239126, guid: 5ac86a7828b2b7c4d98287672244833b, type: 3}
-    individualFadeDuration: 2
+    individualFadeDuration: 0
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: All hope is lost. You are gonna perish here.
@@ -511,7 +511,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
-    individualFadeDuration: 2
+    individualFadeDuration: 1
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: The end.
@@ -527,7 +527,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
-    individualFadeDuration: 0
+    individualFadeDuration: 0.5
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: WHAT'S THAT???.
@@ -535,7 +535,7 @@ MonoBehaviour:
   - showText: 1
     useGrayBox: 0
     background: {fileID: 2382000799175458472, guid: 4b1de160b9a7bf94aa241fd2f6a2653d, type: 3}
-    individualFadeDuration: 1
+    individualFadeDuration: 0
     characterPortrait: {fileID: 0}
     characterName: 
     dialogueLine: WHY... IS THERE ANOTHER SHIP HERE?
@@ -565,8 +565,16 @@ MonoBehaviour:
     dialogueLine: I've got to get inside...
     customTypingSound: {fileID: 0}
   - showText: 1
+    useGrayBox: 0
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
+    individualFadeDuration: 0.5
+    characterPortrait: {fileID: 0}
+    characterName: 
+    dialogueLine: 
+    customTypingSound: {fileID: 0}
+  - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 1188514764075153063, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
     characterName: 
@@ -574,7 +582,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 1188514764075153063, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
     characterName: 
@@ -582,7 +590,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 211815976, guid: e334af55372f5f345a622688baf4d202, type: 3}
     characterName: 
@@ -590,7 +598,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 938414405, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
     characterName: 
@@ -598,7 +606,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 211815976, guid: e334af55372f5f345a622688baf4d202, type: 3}
     characterName: 
@@ -606,7 +614,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 1
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 2137865073, guid: 94b2f5828d97a3a4e8276901265f8769, type: 3}
     characterName: 
@@ -614,7 +622,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 0
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0.5
     characterPortrait: {fileID: 0}
     characterName: 
@@ -622,7 +630,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 1
     useGrayBox: 0
-    background: {fileID: 4937285126258731645, guid: bfd68518ac06c0641aa40d06fdfab2d1, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 0
     characterPortrait: {fileID: 0}
     characterName: 
@@ -630,7 +638,7 @@ MonoBehaviour:
     customTypingSound: {fileID: 0}
   - showText: 0
     useGrayBox: 0
-    background: {fileID: 2406512304624578628, guid: 9a97783606af222448f74c4a8f07df2c, type: 3}
+    background: {fileID: -740836708818713543, guid: 1c78cc919bf14784fb8c6343cb9e9556, type: 3}
     individualFadeDuration: 2
     characterPortrait: {fileID: 0}
     characterName: 
