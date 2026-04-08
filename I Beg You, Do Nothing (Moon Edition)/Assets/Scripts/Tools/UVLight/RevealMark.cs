@@ -4,9 +4,13 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class UVRevealMark : MonoBehaviour
 {
+    // Add this to identify fingerprints in the Inspector
+    public bool isFingerprint = false;
+    public int digitValue;
+
     public float extraRevealRadius = 0f;
     public float hiddenAlpha = 0f;
-    public float revealedAlpha = 1f;
+    public float revealedAlpha = 1f; // The Manager will change this
     public float fadeSpeed = 8f;
 
     private Image markImage;
@@ -17,21 +21,20 @@ public class UVRevealMark : MonoBehaviour
     {
         markImage = GetComponent<Image>();
         rectTransform = GetComponent<RectTransform>();
-        uvLight = FindObjectOfType<UVLightTool>();   // finding the flashlight script in the scene
+        uvLight = FindObjectOfType<UVLightTool>();
 
-        SetAlpha(hiddenAlpha);   // hide the mark immediately
+        SetAlpha(hiddenAlpha);
     }
 
     void Update()
     {
-        if (uvLight == null)
-            return;
+        if (uvLight == null) return;
 
         float targetAlpha = hiddenAlpha;
 
         if (uvLight.isUVLightOn)
         {
-            float distance = Vector2.Distance(rectTransform.position, uvLight.GetSpotWorldPosition());   // distance between mark and UV spot
+            float distance = Vector2.Distance(rectTransform.position, uvLight.GetSpotWorldPosition());
 
             if (distance <= uvLight.revealRadius + extraRevealRadius)
             {
@@ -39,8 +42,8 @@ public class UVRevealMark : MonoBehaviour
             }
         }
 
-        Color c = markImage.color;   // copy the color of the mark into variable c
-        c.a = Mathf.Lerp(c.a, targetAlpha, Time.deltaTime * fadeSpeed);   // fading from visible to invisible (or reversed)
+        Color c = markImage.color;
+        c.a = Mathf.Lerp(c.a, targetAlpha, Time.deltaTime * fadeSpeed);
         markImage.color = c;
     }
 

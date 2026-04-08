@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
-using TMPro; // Folosim TextMeshPro pentru textul de pe ecran
+using TMPro;
 
 public class NumpadController : MonoBehaviour
 {
     [Header("UI References")]
-    [Tooltip("Trage aici obiectul TextMeshPro care reprezintă ecranul")]
     public TextMeshProUGUI screenText;
+
+    [Header("Dynamic References")]
+    public FingerprintManager fingerprintManager;
 
     [Header("Numpad Settings")]
     public int maxCodeLength = 4;
     private string currentInput = "";
 
-    // for panel on/off activation
+    [Header("Puzzle Elements")]
     public GameObject gridPuzzlePanel;
-
-    // for audio clip
     public AudioSource musicSource;
     public AudioClip abandonShipClip;
 
@@ -23,30 +23,16 @@ public class NumpadController : MonoBehaviour
         UpdateScreen();
     }
 
-    // Această funcție va fi apelată de butoane (NumpadButton)
     public void ButtonPressed(string value)
     {
-        if (value == "CLEAR")
-        {
-            ClearInput();
-        }
-        else if (value == "BACK") // AM ADAUGAT ASTA PENTRU BACKSPACE
-        {
-            DeleteLastDigit();
-        }
-        else if (value == "ENTER")
-        {
-            CheckCode();
-        }
-        else
-        {
-            AddDigit(value);
-        }
+        if (value == "CLEAR") ClearInput();
+        else if (value == "BACK") DeleteLastDigit();
+        else if (value == "ENTER") CheckCode();
+        else AddDigit(value);
     }
 
     private void AddDigit(string digit)
     {
-        // Adăugăm cifra doar dacă nu am atins limita maximă
         if (currentInput.Length < maxCodeLength)
         {
             currentInput += digit;
@@ -54,12 +40,10 @@ public class NumpadController : MonoBehaviour
         }
     }
 
-    // Funcție nouă pentru Backspace
     private void DeleteLastDigit()
     {
         if (currentInput.Length > 0)
         {
-            // Ștergem ultimul caracter din string
             currentInput = currentInput.Substring(0, currentInput.Length - 1);
             UpdateScreen();
         }
@@ -75,16 +59,63 @@ public class NumpadController : MonoBehaviour
     {
         if (screenText != null)
         {
-            // Dacă nu e nimic introdus, afișăm niște liniuțe pentru design
-            if (currentInput == "")
+            screenText.text = (currentInput == "") ? "----" : currentInput;
+        }
+    }
+
+    private void CheckCode()
+    {
+        // Trim removes any accidental invisible spaces at the start or end
+        string input = currentInput.Trim();
+
+        if (fingerprintManager == null)
+        {
+            Debug.LogError("NumpadController error: FingerprintManager is NOT assigned in the Inspector!");
+            // We don't return here so the static codes (1234, etc) still work
+        }
+        else
+        {
+            // DEEP DEBUG: This will show us if there is a hidden mismatch
+            Debug.Log($"[Comparison] Input: '{input}' | High: '{fingerprintManager.highestCode}' | Low: '{fingerprintManager.lowestCode}'");
+
+            if (input == fingerprintManager.highestCode.Trim())
             {
-                screenText.text = "----";
+                Debug.Log("<color=green>SUCCESS:</color> Highest fingerprint code entered!");
+                ClearInput();
+                return;
             }
-            else
+
+            if (input == fingerprintManager.lowestCode.Trim())
             {
-                screenText.text = currentInput;
+                Debug.Log("<color=green>SUCCESS:</color> Lowest fingerprint code entered!");
+                ClearInput();
+                return;
             }
         }
+
+        // 2. Check Static Secret Codes using the trimmed 'input'
+        switch (input)
+        {
+            case "1234":
+                Debug.Log("COD CORECT: Se deschid obloanele!");
+                break;
+            case "6666":
+                Debug.Log("COD FATAL: Autodistrugere!");
+                break;
+            case "2540":
+                if (gridPuzzlePanel != null) gridPuzzlePanel.SetActive(true);
+                break;
+            case "2018":
+                PlayAbandonShip();
+                break;
+            default:
+                Debug.Log($"<color=red>FAILURE:</color> Code '{input}' not recognized.");
+                screenText.text = "ERR";
+                Invoke("ClearInput", 1f);
+                return;
+        }
+
+        ClearInput();
     }
 
     private void PlayAbandonShip()
@@ -95,54 +126,5 @@ public class NumpadController : MonoBehaviour
             musicSource.clip = abandonShipClip;
             musicSource.Play();
         }
-        else
-        {
-            Debug.LogWarning("MusicSource // AbandonShipClip not set in Inspector.");
-        }
-    }
-
-    // Aici definești ce se întâmplă pentru fiecare cod secret!
-    private void CheckCode()
-    {
-        Debug.Log("Verific codul: " + currentInput);
-
-        switch (currentInput)
-        {
-            case "1234":
-                Debug.Log("COD CORECT: Se deschid obloanele!");
-                // Aici poți apela o funcție din alt script, ex: BlastDoors.Open();
-                break;
-
-            case "6666":
-                Debug.Log("COD FATAL: Autodistrugere inițiată!");
-                // Exemplu: Apelezi o funcție din DeskController pentru a face masa roșie
-                DeskController desk = FindObjectOfType<DeskController>();
-                if (desk != null) desk.OnRedButtonPressed();
-                break;
-
-            case "0000":
-                Debug.Log("COD CORECT: Întoarcere pe Pământ!");
-                break;
-
-            case "2540":
-                Debug.Log("Hidden panel activated");
-                if (gridPuzzlePanel != null)
-                    gridPuzzlePanel.SetActive(true);
-                break;
-
-            case "2018":
-                Debug.Log("Now playing: Abandon Ship (created by nicubynicu)");
-                PlayAbandonShip();
-                break;
-
-            default:
-                Debug.Log("Cod incorect/necunoscut.");
-                screenText.text = "ERR"; // Afișăm o eroare scurtă
-                Invoke("ClearInput", 1f); // Ștergem eroarea după 1 secundă
-                return; // Oprim execuția aici ca să nu șteargă imediat
-        }
-
-        // După un cod de succes, curățăm ecranul
-        ClearInput();
     }
 }
