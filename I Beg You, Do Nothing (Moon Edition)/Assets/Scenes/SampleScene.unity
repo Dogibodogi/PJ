@@ -306,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -361,6 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -1162,117 +1164,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155475218}
   m_CullTransparentMesh: 1
---- !u!95 &176857576
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182074292}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1dd2511d3f7b4b24c96cfe637546d336, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &176857577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182074292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &182074292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182074296}
-  - component: {fileID: 176857577}
-  - component: {fileID: 176857576}
-  - component: {fileID: 182074294}
-  - component: {fileID: 182074295}
-  m_Layer: 5
-  m_Name: FireTop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &182074294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182074292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 2324490100703908858, guid: 4b98890abad42fa44afea2d4b9e73b01, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &182074295
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182074292}
-  m_CullTransparentMesh: 1
---- !u!224 &182074296
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182074292}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.633363, y: 0.633363, z: 0.633363}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1172602438}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -486.4228, y: -298.50003}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &198100071
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,12 +1192,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 733799304}
   - {fileID: 439272254}
   - {fileID: 1524041323}
   - {fileID: 2120767183}
   - {fileID: 361150090}
   - {fileID: 1160875755}
-  - {fileID: 733799304}
   m_Father: {fileID: 952278248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2325,6 +2216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -2873,6 +2765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -3308,6 +3201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 7
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -3802,6 +3696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -3933,6 +3828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 8
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -4548,6 +4444,7 @@ GameObject:
   - component: {fileID: 643564432}
   - component: {fileID: 643564434}
   - component: {fileID: 643564433}
+  - component: {fileID: 643564435}
   m_Layer: 5
   m_Name: UVSpot
   m_TagString: Untagged
@@ -4588,7 +4485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.33333334}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4612,6 +4509,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643564431}
   m_CullTransparentMesh: 1
+--- !u!225 &643564435
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643564431}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &684669389
 GameObject:
   m_ObjectHideFlags: 0
@@ -5129,6 +5038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -5295,6 +5205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 3
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -5600,6 +5511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 6
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -6709,6 +6621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ef54b39569db824283aa4d2f08d48f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FingerprintManager
+  highestCode: 
+  lowestCode: 
 --- !u!1 &920752227
 GameObject:
   m_ObjectHideFlags: 0
@@ -7184,6 +7098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 1
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -8246,7 +8161,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 593411832}
-  - {fileID: 182074296}
   m_Father: {fileID: 1624692797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -8343,6 +8257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -8398,6 +8313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -8701,6 +8617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -8873,6 +8790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 5
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -9525,6 +9443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 4
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -10327,6 +10246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -10422,6 +10342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NumpadController
   screenText: {fileID: 1357488494}
+  fingerprintManager: {fileID: 880550327}
   maxCodeLength: 4
   gridPuzzlePanel: {fileID: 2120767182}
   musicSource: {fileID: 1230515085}
@@ -10781,6 +10702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 9
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -11966,6 +11888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -13012,6 +12935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 1
+  digitValue: 2
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -14027,6 +13951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -14150,6 +14075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
@@ -14243,6 +14169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UVRevealMark
   isFingerprint: 0
+  digitValue: 0
   extraRevealRadius: 0
   hiddenAlpha: 0
   revealedAlpha: 1
