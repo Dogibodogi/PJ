@@ -9,14 +9,17 @@ public class NumpadController : MonoBehaviour
     [Header("Dynamic References")]
     public FingerprintManager fingerprintManager;
 
+    [Header("Puzzle Elements")]
+    public GameObject gridPuzzlePanel;
+    // --- ADDED THIS LINE ---
+    public GameObject imageToTurnOff;
+
+    public AudioSource musicSource;
+    public AudioClip abandonShipClip;
+
     [Header("Numpad Settings")]
     public int maxCodeLength = 4;
     private string currentInput = "";
-
-    [Header("Puzzle Elements")]
-    public GameObject gridPuzzlePanel;
-    public AudioSource musicSource;
-    public AudioClip abandonShipClip;
 
     void Start()
     {
@@ -65,19 +68,15 @@ public class NumpadController : MonoBehaviour
 
     private void CheckCode()
     {
-        // Trim removes any accidental invisible spaces at the start or end
         string input = currentInput.Trim();
 
         if (fingerprintManager == null)
         {
-            Debug.LogError("NumpadController error: FingerprintManager is NOT assigned in the Inspector!");
-            // We don't return here so the static codes (1234, etc) still work
+            Debug.LogError("NumpadController error: FingerprintManager is NOT assigned!");
         }
         else
         {
-            // DEEP DEBUG: This will show us if there is a hidden mismatch
-            Debug.Log($"[Comparison] Input: '{input}' | High: '{fingerprintManager.highestCode}' | Low: '{fingerprintManager.lowestCode}'");
-
+            // 1. Check Highest Code
             if (input == fingerprintManager.highestCode.Trim())
             {
                 Debug.Log("<color=green>SUCCESS:</color> Highest fingerprint code entered!");
@@ -85,22 +84,28 @@ public class NumpadController : MonoBehaviour
                 return;
             }
 
+            // 2. Check Lowest Code (This is the one that turns off the image)
             if (input == fingerprintManager.lowestCode.Trim())
             {
                 Debug.Log("<color=green>SUCCESS:</color> Lowest fingerprint code entered!");
+
+                // --- ADDED THIS LOGIC ---
+                if (imageToTurnOff != null)
+                {
+                    imageToTurnOff.SetActive(false);
+                    Debug.Log("Security Image Disabled via Numpad.");
+                }
+
                 ClearInput();
                 return;
             }
         }
 
-        // 2. Check Static Secret Codes using the trimmed 'input'
+        // 3. Check Static Secret Codes
         switch (input)
         {
             case "1234":
                 Debug.Log("COD CORECT: Se deschid obloanele!");
-                break;
-            case "6666":
-                Debug.Log("COD FATAL: Autodistrugere!");
                 break;
             case "2540":
                 if (gridPuzzlePanel != null) gridPuzzlePanel.SetActive(true);
