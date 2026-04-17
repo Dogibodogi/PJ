@@ -1,23 +1,72 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement; // Required for loading scenes
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
+    private static PauseManager instance;
+
     public GameObject pauseMenuPanel;
     private bool isPaused = false;
 
-    // You can set the exact name of your main menu scene in the inspector
     [Tooltip("The exact name of the main menu scene as written in the Build Settings")]
     public string mainMenuSceneName = "MainMenu";
+
+    [Header("Pause allowed only in these scenes")]
+    [SerializeField] private string[] allowedScenes;
+
+    private bool pauseAllowedInCurrentScene = true;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
         pauseMenuPanel.SetActive(false);
     }
 
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        pauseAllowedInCurrentScene = false;
+
+        for (int i = 0; i < allowedScenes.Length; i++)
+        {
+            if (scene.name == allowedScenes[i])
+            {
+                pauseAllowedInCurrentScene = true;
+                break;
+            }
+        }
+
+        pauseMenuPanel.SetActive(false);
+        isPaused = false;
+        Time.timeScale = 1f;
+    }
+
     void Update()
     {
+        if (!pauseAllowedInCurrentScene)
+            return;
+
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             if (isPaused)
@@ -30,11 +79,11 @@ public class PauseManager : MonoBehaviour
     public void PauseGame()
     {
         pauseMenuPanel.SetActive(true);
+        pauseMenuPanel.transform.SetAsLastSibling();
         Time.timeScale = 0f;
         isPaused = true;
     }
 
-    // Link this to your "Continue" button
     public void ResumeGame()
     {
         pauseMenuPanel.SetActive(false);
@@ -42,35 +91,22 @@ public class PauseManager : MonoBehaviour
         isPaused = false;
     }
 
-    // Link this to your "Restart" button
     public void RestartGame()
     {
-        // Always reset time scale before loading a scene
-        Time.timeScale = 1f;
-
-        // Reloads the currently active scene
+        ResumeGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // Link this to your "Main Menu" button
     public void GoToMainMenu()
     {
-        // Always reset time scale before loading a scene
-        Time.timeScale = 1f;
-
-        // Load the Main Menu scene
+        ResumeGame();
         SceneManager.LoadScene(mainMenuSceneName);
     }
+
     public void SaveGame()
     {
-        // 1. Save the current scene name
         string currentScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("SavedLevel", currentScene);
-
-        // (Optional) You can save other things here later, for example:
-        // PlayerPrefs.SetInt("HasUVLight", playerHasUVLight ? 1 : 0);
-
-        // 2. Actually write the data to the hard drive
         PlayerPrefs.Save();
 
         Debug.Log("Game Saved! Scene: " + currentScene);
