@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: ab82e32102c50c44297e96a445835197
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8705041674756914184
+    second: Egg_Planet_Sprites_0
+  - first:
+      213: -5847069440449393391
+    second: Egg_Planet_Sprites_1
+  - first:
+      213: -2395962866741734163
+    second: Egg_Planet_Sprites_2
+  - first:
+      213: 6269703575583310424
+    second: Egg_Planet_Sprites_3
+  - first:
+      213: 19160299643864021
+    second: Egg_Planet_Sprites_4
+  - first:
+      213: -3501897148077506434
+    second: Egg_Planet_Sprites_5
+  - first:
+      213: -5634513252616042849
+    second: Egg_Planet_Sprites_6
+  - first:
+      213: -3583236634597792316
+    second: Egg_Planet_Sprites_7
+  - first:
+      213: -3072916440699818198
+    second: Egg_Planet_Sprites_8
+  - first:
+      213: 7546211631446623740
+    second: Egg_Planet_Sprites_9
+  - first:
+      213: 8728188072641302614
+    second: Egg_Planet_Sprites_10
+  - first:
+      213: 1057322628614162621
+    second: Egg_Planet_Sprites_11
+  - first:
+      213: 9103006847374280152
+    second: Egg_Planet_Sprites_12
+  - first:
+      213: 1252894983079371187
+    second: Egg_Planet_Sprites_13
+  - first:
+      213: 8388346989859772332
+    second: Egg_Planet_Sprites_14
+  - first:
+      213: -2195921405902058103
+    second: Egg_Planet_Sprites_15
+  - first:
+      213: -2317023853000181076
+    second: Egg_Planet_Sprites_16
+  - first:
+      213: 4086519305134922087
+    second: Egg_Planet_Sprites_17
+  - first:
+      213: 1957587307906063934
+    second: Egg_Planet_Sprites_18
+  - first:
+      213: -1363749561717825684
+    second: Egg_Planet_Sprites_19
+  - first:
+      213: -8697374394283938738
+    second: Egg_Planet_Sprites_20
+  - first:
+      213: 3600385482263262334
+    second: Egg_Planet_Sprites_21
+  - first:
+      213: 2779875193792923294
+    second: Egg_Planet_Sprites_22
+  - first:
+      213: -4365375728786037654
+    second: Egg_Planet_Sprites_23
+  - first:
+      213: -8474631261321165044
+    second: Egg_Planet_Sprites_24
+  - first:
+      213: -3555720827479301927
+    second: Egg_Planet_Sprites_25
+  - first:
+      213: -4351951268276315946
+    second: Egg_Planet_Sprites_26
+  - first:
+      213: -3361977991422183436
+    second: Egg_Planet_Sprites_27
+  - first:
+      213: -1488052717768700988
+    second: Egg_Planet_Sprites_28
+  - first:
+      213: -9137481535673178821
+    second: Egg_Planet_Sprites_29
+  - first:
+      213: -782117855275772507
+    second: Egg_Planet_Sprites_30
+  - first:
+      213: 4503819426723698757
+    second: Egg_Planet_Sprites_31
+  - first:
+      213: 995537659379354513
+    second: Egg_Planet_Sprites_32
+  - first:
+      213: 1546797798553781650
+    second: Egg_Planet_Sprites_33
+  - first:
+      213: -947156115391217918
+    second: Egg_Planet_Sprites_34
+  - first:
+      213: 844471512434760707
+    second: Egg_Planet_Sprites_35
+  - first:
+      213: 187861263709680913
+    second: Egg_Planet_Sprites_36
+  - first:
+      213: -6849952657114465247
+    second: Egg_Planet_Sprites_37
+  - first:
+      213: 1362405323197552343
+    second: Egg_Planet_Sprites_38
+  - first:
+      213: -7375710027083798414
+    second: Egg_Planet_Sprites_39
+  - first:
+      213: 4410701656133946632
+    second: Egg_Planet_Sprites_40
+  - first:
+      213: 1677114188074331021
+    second: Egg_Planet_Sprites_41
+  - first:
+      213: 1014731720255453508
+    second: Egg_Planet_Sprites_42
+  - first:
+      213: -2625073457277298734
+    second: Egg_Planet_Sprites_43
+  - first:
+      213: -3517648614681042877
+    second: Egg_Planet_Sprites_44
+  - first:
+      213: 4564388172437721920
+    second: Egg_Planet_Sprites_45
+  - first:
+      213: -2961972250951072782
+    second: Egg_Planet_Sprites_46
+  - first:
+      213: 7177525931085370641
+    second: Egg_Planet_Sprites_47
+  - first:
+      213: 9110224617013838089
+    second: Egg_Planet_Sprites_48
+  - first:
+      213: -3034823668093150157
+    second: Egg_Planet_Sprites_49
+  - first:
+      213: 8683350735853816710
+    second: Egg_Planet_Sprites_50
+  - first:
+      213: 918843587763354121
+    second: Egg_Planet_Sprites_51
+  - first:
+      213: 5207107339324584788
+    second: Egg_Planet_Sprites_52
+  - first:
+      213: -4806202555139257146
+    second: Egg_Planet_Sprites_53
+  - first:
+      213: 5303615249323751051
+    second: Egg_Planet_Sprites_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c7bda28458ec870800000000000000
+      internalID: 8705041674756914184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dc8f0b2590bdea0800000000000000
+      internalID: -5847069440449393391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 260
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de415d09774dfbed0800000000000000
+      internalID: -2395962866741734163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 196
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852c3a50f26720750800000000000000
+      internalID: 6269703575583310424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 259
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d30016e032144000800000000000000
+      internalID: 19160299643864021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 193
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7003e00913c66fc0800000000000000
+      internalID: -3501897148077506434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 260
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f960797bc003ec1b0800000000000000
+      internalID: -5634513252616042849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 194
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5e1a00449c54ec0800000000000000
+      internalID: -3583236634597792316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 263
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f21a737ceca55d0800000000000000
+      internalID: -3072916440699818198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 194
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf50c4c4f7789b860800000000000000
+      internalID: 7546211631446623740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 261
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6501692eec0c02970800000000000000
+      internalID: 8728188072641302614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 195
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8878b245d5cae00800000000000000
+      internalID: 1057322628614162621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 261
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d541b57f70645e70800000000000000
+      internalID: 9103006847374280152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 197
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1a057595d236110800000000000000
+      internalID: 1252894983079371187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 261
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca71f47d425696470800000000000000
+      internalID: 8388346989859772332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 195
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d0886ad158681e0800000000000000
+      internalID: -2195921405902058103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 194
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa31d1f41748dfd0800000000000000
+      internalID: -2317023853000181076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 260
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769d75e18ab36b830800000000000000
+      internalID: 4086519305134922087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 260
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3edd88e84fba2b10800000000000000
+      internalID: 1957587307906063934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 197
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fd633cffcf21de0800000000000000
+      internalID: -1363749561717825684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 197
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ca02ea118bc4780800000000000000
+      internalID: -8697374394283938738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 260
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7476cc358327f130800000000000000
+      internalID: 3600385482263262334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9682f5a2c9149620800000000000000
+      internalID: 2779875193792923294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64a89647e11b63c0800000000000000
+      internalID: -4365375728786037654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 128
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c070882b4cf046a80800000000000000
+      internalID: -8474631261321165044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 65
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d063a51fba87aec0800000000000000
+      internalID: -3555720827479301927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 129
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8549e0163ca93c0800000000000000
+      internalID: -4351951268276315946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 129
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7799e44dad751d0800000000000000
+      internalID: -3361977991422183436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 64
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb875eefef595be0800000000000000
+      internalID: -1488052717768700988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 133
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35628ca4f4213180800000000000000
+      internalID: -9137481535673178821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 131
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a51cc754fb5525f0800000000000000
+      internalID: -782117855275772507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 66
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5489e5608e7c08e30800000000000000
+      internalID: 4503819426723698757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 129
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b84d30a3cd0dd00800000000000000
+      internalID: 995537659379354513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 129
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295872a0764577510800000000000000
+      internalID: 1546797798553781650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 64
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f744308860bd2f0800000000000000
+      internalID: -947156115391217918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 133
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c5c99cd5a28bb00800000000000000
+      internalID: 844471512434760707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 64
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115b872f2da6b9200800000000000000
+      internalID: 187861263709680913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 130
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cf278d95410f0a0800000000000000
+      internalID: -6849952657114465247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 130
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d69a415c6c38e210800000000000000
+      internalID: 1362405323197552343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 67
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278226dfec634a990800000000000000
+      internalID: -7375710027083798414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d471099c5f53d30800000000000000
+      internalID: 4410701656133946632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b20f3e77e464710800000000000000
+      internalID: 1677114188074331021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 63
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449b5209f1d051e00800000000000000
+      internalID: 1014731720255453508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d71ead499dd19bd0800000000000000
+      internalID: -2625073457277298734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 66
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340aa45e83dce2fc0800000000000000
+      internalID: -3517648614681042877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04315231cd6f75f30800000000000000
+      internalID: 4564388172437721920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f34f735ee5f4e6d0800000000000000
+      internalID: -2961972250951072782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1159f706ec1bb9360800000000000000
+      internalID: 7177525931085370641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 63
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901012965050e6e70800000000000000
+      internalID: 9110224617013838089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c1c5bf3f322e5d0800000000000000
+      internalID: -3034823668093150157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b81b6ec75718870800000000000000
+      internalID: 8683350735853816710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 65
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ab7c4ff5360cc00800000000000000
+      internalID: 918843587763354121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45375c3698c534840800000000000000
+      internalID: 5207107339324584788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc895e8d30fc4db0800000000000000
+      internalID: -4806202555139257146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Egg_Planet_Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86794138f93a9940800000000000000
+      internalID: 5303615249323751051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Egg_Planet_Sprites_0: 8705041674756914184
+      Egg_Planet_Sprites_1: -5847069440449393391
+      Egg_Planet_Sprites_10: 8728188072641302614
+      Egg_Planet_Sprites_11: 1057322628614162621
+      Egg_Planet_Sprites_12: 9103006847374280152
+      Egg_Planet_Sprites_13: 1252894983079371187
+      Egg_Planet_Sprites_14: 8388346989859772332
+      Egg_Planet_Sprites_15: -2195921405902058103
+      Egg_Planet_Sprites_16: -2317023853000181076
+      Egg_Planet_Sprites_17: 4086519305134922087
+      Egg_Planet_Sprites_18: 1957587307906063934
+      Egg_Planet_Sprites_19: -1363749561717825684
+      Egg_Planet_Sprites_2: -2395962866741734163
+      Egg_Planet_Sprites_20: -8697374394283938738
+      Egg_Planet_Sprites_21: 3600385482263262334
+      Egg_Planet_Sprites_22: 2779875193792923294
+      Egg_Planet_Sprites_23: -4365375728786037654
+      Egg_Planet_Sprites_24: -8474631261321165044
+      Egg_Planet_Sprites_25: -3555720827479301927
+      Egg_Planet_Sprites_26: -4351951268276315946
+      Egg_Planet_Sprites_27: -3361977991422183436
+      Egg_Planet_Sprites_28: -1488052717768700988
+      Egg_Planet_Sprites_29: -9137481535673178821
+      Egg_Planet_Sprites_3: 6269703575583310424
+      Egg_Planet_Sprites_30: -782117855275772507
+      Egg_Planet_Sprites_31: 4503819426723698757
+      Egg_Planet_Sprites_32: 995537659379354513
+      Egg_Planet_Sprites_33: 1546797798553781650
+      Egg_Planet_Sprites_34: -947156115391217918
+      Egg_Planet_Sprites_35: 844471512434760707
+      Egg_Planet_Sprites_36: 187861263709680913
+      Egg_Planet_Sprites_37: -6849952657114465247
+      Egg_Planet_Sprites_38: 1362405323197552343
+      Egg_Planet_Sprites_39: -7375710027083798414
+      Egg_Planet_Sprites_4: 19160299643864021
+      Egg_Planet_Sprites_40: 4410701656133946632
+      Egg_Planet_Sprites_41: 1677114188074331021
+      Egg_Planet_Sprites_42: 1014731720255453508
+      Egg_Planet_Sprites_43: -2625073457277298734
+      Egg_Planet_Sprites_44: -3517648614681042877
+      Egg_Planet_Sprites_45: 4564388172437721920
+      Egg_Planet_Sprites_46: -2961972250951072782
+      Egg_Planet_Sprites_47: 7177525931085370641
+      Egg_Planet_Sprites_48: 9110224617013838089
+      Egg_Planet_Sprites_49: -3034823668093150157
+      Egg_Planet_Sprites_5: -3501897148077506434
+      Egg_Planet_Sprites_50: 8683350735853816710
+      Egg_Planet_Sprites_51: 918843587763354121
+      Egg_Planet_Sprites_52: 5207107339324584788
+      Egg_Planet_Sprites_53: -4806202555139257146
+      Egg_Planet_Sprites_54: 5303615249323751051
+      Egg_Planet_Sprites_6: -5634513252616042849
+      Egg_Planet_Sprites_7: -3583236634597792316
+      Egg_Planet_Sprites_8: -3072916440699818198
+      Egg_Planet_Sprites_9: 7546211631446623740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

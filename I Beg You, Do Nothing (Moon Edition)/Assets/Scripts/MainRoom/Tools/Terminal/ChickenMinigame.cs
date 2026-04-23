@@ -19,12 +19,16 @@ public class ChickenMinigame : MonoBehaviour
     private List<GameObject> enemies = new List<GameObject>();
     private List<GameObject> bullets = new List<GameObject>();
 
+    [Header("Level 4 Variables")]
+    public Sprite rewardSprite;
+    public TMP_Text congratulationsText;
+    private GameObject rewardObject;
+
     [Header("Textures")]
     public Sprite playerSprite;
-    public Sprite bossSprite;
-
-    // Array to hold the 3 animation frames
+    public Sprite bossSprite; // Keeps the static sprite as a fallback
     public Sprite[] enemyIdleFrames;
+    public Sprite[] bossIdleFrames; // Added for the boss animation
 
     [Header("Animation Settings")]
     public float animationSpeed = 0.2f; // Time in seconds between each frame
@@ -58,9 +62,13 @@ public class ChickenMinigame : MonoBehaviour
         playArea.gameObject.SetActive(true);
         Canvas.ForceUpdateCanvases();
 
+        // Ensure text is hidden at the start of level 1
+        if (congratulationsText != null)
+            congratulationsText.gameObject.SetActive(false);
+
         currentLevel = 1;
         isPlaying = true;
-        levelStartTime = Time.time; // Set the timer
+        levelStartTime = Time.time;
         SetupLevel();
     }
 
@@ -71,47 +79,82 @@ public class ChickenMinigame : MonoBehaviour
 
         if (currentLevel == 1)
         {
-            SpawnEnemies(1, 5); // 1 row, 5 enemies
+            SpawnEnemies(1, 5);
             Debug.Log("Level 1 started.");
         }
         else if (currentLevel == 2)
         {
-            SpawnEnemies(2, 6); // 2 rows, 6 enemies
+            SpawnEnemies(2, 6);
             Debug.Log("Level 2 started.");
         }
         else if (currentLevel == 3)
         {
-            SpawnBoss(); // Boss level
+            SpawnBoss();
             Debug.Log("Boss Level started.");
+        }
+        else if (currentLevel == 4)
+        {
+            SpawnReward(); // Triggers the new level 4 state
+            Debug.Log("Level 4 started.");
+        }
+    }
+
+    private void SpawnReward()
+    {
+        // Creates the object box
+        rewardObject = CreateUIElement("Reward", new Vector2(100, 500), Color.yellow);
+        RectTransform rect = rewardObject.GetComponent<RectTransform>();
+        Image img = rewardObject.GetComponent<Image>();
+
+        if (rewardSprite != null)
+        {
+            img.sprite = rewardSprite;
+        }
+
+        // Anchor it to the bottom so the math aligns with the player
+        rect.anchorMin = new Vector2(0.5f, 0f);
+        rect.anchorMax = new Vector2(0.5f, 0f);
+        rect.pivot = new Vector2(0.5f, 0f);
+
+        // Place it exactly halfway up the screen
+        rect.anchoredPosition = new Vector2(0, playArea.rect.height / 2f);
+
+        // Turn on the Congratulations text
+        if (congratulationsText != null)
+        {
+            congratulationsText.gameObject.SetActive(true);
         }
     }
 
     private void AnimateEnemies()
     {
-        // Do nothing if we don't have frames assigned
-        if (enemyIdleFrames == null || enemyIdleFrames.Length == 0) return;
+        // Check if we have any frames to animate
+        bool hasEnemyFrames = enemyIdleFrames != null && enemyIdleFrames.Length > 0;
+        bool hasBossFrames = bossIdleFrames != null && bossIdleFrames.Length > 0;
+
+        if (!hasEnemyFrames && !hasBossFrames) return;
 
         animationTimer += Time.deltaTime;
 
-        // When the timer exceeds our speed, move to the next frame
         if (animationTimer >= animationSpeed)
         {
             animationTimer = 0f;
-            currentFrame++;
+            currentFrame++; // Advance the frame counter
 
-            // Loop back to the first frame if we reach the end
-            if (currentFrame >= enemyIdleFrames.Length)
-            {
-                currentFrame = 0;
-            }
-
-            // Apply the new frame to all standard enemies
             foreach (var enemy in enemies)
             {
-                // Make sure we only animate the regular enemies, not the boss
-                if (enemy.name == "Enemy")
+                // Animate standard enemies
+                if (enemy.name == "Enemy" && hasEnemyFrames)
                 {
-                    enemy.GetComponent<Image>().sprite = enemyIdleFrames[currentFrame];
+                    // The % operator safely loops the index back to 0 when it reaches the end
+                    int frameIndex = currentFrame % enemyIdleFrames.Length;
+                    enemy.GetComponent<Image>().sprite = enemyIdleFrames[frameIndex];
+                }
+                // Animate the boss
+                else if (enemy.name == "Boss" && hasBossFrames)
+                {
+                    int frameIndex = currentFrame % bossIdleFrames.Length;
+                    enemy.GetComponent<Image>().sprite = bossIdleFrames[frameIndex];
                 }
             }
         }
@@ -126,9 +169,27 @@ public class ChickenMinigame : MonoBehaviour
         if (Keyboard.current.rightArrowKey.isPressed)
             pos.x += playerSpeed * Time.deltaTime;
 
-        // Keep player in bounds
+        if (Keyboard.current.upArrowKey.isPressed)
+            pos.y += playerSpeed * Time.deltaTime;
+        if (Keyboard.current.downArrowKey.isPressed)
+            pos.y -= playerSpeed * Time.deltaTime;
+
         float halfWidth = playArea.rect.width / 2f - 25f;
         pos.x = Mathf.Clamp(pos.x, -halfWidth, halfWidth);
+
+        float bottomLimit = 50f;
+
+        // If enemies are alive OR we are on Level 4, lock the player inside the screen
+        if (enemies.Count > 0 || currentLevel == 4)
+        {
+            float topLimit = playArea.rect.height - 50f;
+            pos.y = Mathf.Clamp(pos.y, bottomLimit, topLimit);
+        }
+        else
+        {
+            // If enemies are dead and it's NOT Level 4, let them fly off the top
+            pos.y = Mathf.Max(pos.y, bottomLimit);
+        }
 
         player.GetComponent<RectTransform>().anchoredPosition = pos;
     }
@@ -219,21 +280,38 @@ public class ChickenMinigame : MonoBehaviour
 
     private void CheckWinLossConditions()
     {
-        // Wait half a second before checking to prevent frame 1 UI glitches
         if (Time.time < levelStartTime + 0.5f) return;
 
-        // Win condition: All enemies destroyed
+        // Level 4 condition: Touch the reward to win
+        if (currentLevel == 4)
+        {
+            if (rewardObject != null && Overlaps(player.GetComponent<RectTransform>(), rewardObject.GetComponent<RectTransform>()))
+            {
+                // --- NEW CODE: Change the planet to Egg when you win ---
+                if (PlanetManager.Instance != null)
+                {
+                    PlanetManager.Instance.ShowPlanet("Egg");
+                }
+                // -------------------------------------------------------
+
+                EndGame("YOU WIN! SYSTEM SECURED.");
+            }
+            return; // Stop checking for enemies since there are none
+        }
+
+        // Win condition: All enemies destroyed AND player flies off screen
         if (enemies.Count == 0)
         {
-            if (currentLevel < 3)
+            float topOfScreen = playArea.rect.height + 100f;
+
+            if (player.GetComponent<RectTransform>().anchoredPosition.y > topOfScreen)
             {
-                currentLevel++;
-                levelStartTime = Time.time; // Reset timer for the next level
-                SetupLevel();
-            }
-            else
-            {
-                EndGame("YOU WIN! SYSTEM SECURED.");
+                if (currentLevel < 4)
+                {
+                    currentLevel++;
+                    levelStartTime = Time.time;
+                    SetupLevel();
+                }
             }
         }
 
@@ -255,13 +333,16 @@ public class ChickenMinigame : MonoBehaviour
         ClearEntities();
         playArea.gameObject.SetActive(false);
 
+        // Ensure text is hidden when the game ends
+        if (congratulationsText != null)
+            congratulationsText.gameObject.SetActive(false);
+
         // Reactivate terminal UI
         terminalController.outputText.gameObject.SetActive(true);
         terminalController.inputField.gameObject.SetActive(true);
 
         terminalController.outputText.text += $"\n<color=yellow>{message}</color>\n";
 
-        // Refocus input
         terminalController.inputField.ActivateInputField();
         terminalController.inputField.Select();
 
@@ -281,7 +362,7 @@ public class ChickenMinigame : MonoBehaviour
         {
             img.sprite = playerSprite;
             // This tells Unity to keep the original proportions and prevents stretching
-            img.preserveAspect = true;
+            img.preserveAspect = false;
         }
 
         rect.anchorMin = new Vector2(0.5f, 0f);
@@ -340,18 +421,26 @@ public class ChickenMinigame : MonoBehaviour
     {
         bossHp = 10;
 
-        // We use Color.white here so the sprite's natural colors show properly
-        GameObject boss = CreateUIElement("Boss", new Vector2(150, 100), Color.white);
+        GameObject boss = CreateUIElement("Boss", new Vector2(150, 600), Color.white);
+        Image img = boss.GetComponent<Image>();
 
-        // Apply the boss sprite if you assigned one in the Inspector
-        if (bossSprite != null)
+        // Prevents the boss image from squashing/stretching
+        img.preserveAspect = false;
+
+        // Apply the first frame of the animation if available
+        if (bossIdleFrames != null && bossIdleFrames.Length > 0)
         {
-            boss.GetComponent<Image>().sprite = bossSprite;
+            img.sprite = bossIdleFrames[0];
+        }
+        else if (bossSprite != null)
+        {
+            // Fallback to static sprite
+            img.sprite = bossSprite;
         }
         else
         {
-            // Fallback to purple color if no sprite is assigned
-            boss.GetComponent<Image>().color = new Color(0.5f, 0f, 0.5f);
+            // Fallback to purple color
+            img.color = new Color(0.5f, 0f, 0.5f);
         }
 
         boss.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, playArea.rect.height / 2f - 100f);
@@ -379,6 +468,7 @@ public class ChickenMinigame : MonoBehaviour
     private void ClearEntities()
     {
         if (player != null) Destroy(player);
+        if (rewardObject != null) Destroy(rewardObject); // Clean up the reward object
         foreach (var e in enemies) Destroy(e);
         foreach (var b in bullets) Destroy(b);
         enemies.Clear();
