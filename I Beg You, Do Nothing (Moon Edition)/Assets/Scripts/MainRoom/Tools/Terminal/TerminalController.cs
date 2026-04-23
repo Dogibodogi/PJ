@@ -10,6 +10,9 @@ public class TerminalController : MonoBehaviour
     public TMP_Text outputText;
     public TMP_InputField inputField;
 
+    [Header("Minigame Reference")]
+    public ChickenMinigame chickenMinigame;
+
     [Header("Terminal Settings")]
     public string userName = "USER";
     public string machineName = "SYSTEM_A";
@@ -118,6 +121,17 @@ public class TerminalController : MonoBehaviour
 
             case "YNY":
                 return "YnySebi superstar! Urc pe scena la concerte lumea ma aplauda...";
+
+            case "CHICKEN INVADERS": // Added command
+                if (chickenMinigame != null)
+                {
+                    // Hide the standard terminal UI and start the game
+                    outputText.gameObject.SetActive(false);
+                    inputField.gameObject.SetActive(false);
+                    chickenMinigame.StartGame();
+                    return "";
+                }
+                return "<color=red>Error: Minigame module missing.</color>";
 
             default:
                 return $"<color=red>Command not recognized:</color> '{cmd}'";
