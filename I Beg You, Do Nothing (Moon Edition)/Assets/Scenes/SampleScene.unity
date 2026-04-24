@@ -1073,6 +1073,8 @@ MonoBehaviour:
   bulletSpeed: 600
   enemySpeed: 150
   shootCooldown: 0.2
+  rewardSprite: {fileID: 8705041674756914184, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  congratulationsText: {fileID: 0}
   playerSprite: {fileID: 7613230866289710096, guid: 547c6d20661a4954a96a9f2a76fa5b68, type: 3}
   bossSprite: {fileID: 0}
   enemyIdleFrames:
@@ -2103,15 +2105,15 @@ RectTransform:
   m_GameObject: {fileID: 278320371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1877, y: 1.1877, z: 1.1877}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1066762044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 9.8, y: 0.7}
+  m_SizeDelta: {x: 149.4602, y: 85.388}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278320373
 MonoBehaviour:
@@ -2127,13 +2129,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlanetFrameAnimator
   targetImage: {fileID: 278320374}
   frames:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  framesPerSecond: 6
+  - {fileID: 8705041674756914184, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -5847069440449393391, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -2395962866741734163, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 6269703575583310424, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 19160299643864021, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3501897148077506434, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -5634513252616042849, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3583236634597792316, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3072916440699818198, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 7546211631446623740, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 8728188072641302614, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1057322628614162621, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 9103006847374280152, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1252894983079371187, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 8388346989859772332, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -2195921405902058103, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -2317023853000181076, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 4086519305134922087, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1957587307906063934, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -1363749561717825684, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -8697374394283938738, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 3600385482263262334, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 2779875193792923294, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -4365375728786037654, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -8474631261321165044, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3555720827479301927, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -4351951268276315946, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3361977991422183436, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -1488052717768700988, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -9137481535673178821, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -782117855275772507, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 4503819426723698757, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 995537659379354513, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1546797798553781650, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -947156115391217918, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 844471512434760707, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 187861263709680913, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -6849952657114465247, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1362405323197552343, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -7375710027083798414, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 4410701656133946632, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1677114188074331021, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 1014731720255453508, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -2625073457277298734, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3517648614681042877, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 4564388172437721920, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -2961972250951072782, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 7177525931085370641, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 9110224617013838089, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -3034823668093150157, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 8683350735853816710, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 918843587763354121, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: 5207107339324584788, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  - {fileID: -4806202555139257146, guid: ab82e32102c50c44297e96a445835197, type: 3}
+  framesPerSecond: 3
   playOnStart: 1
 --- !u!114 &278320374
 MonoBehaviour:
@@ -2155,7 +2205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4800997317732526305, guid: 58475d7555d6f5e42b19485c2f1c02b3, type: 3}
+  m_Sprite: {fileID: 8705041674756914184, guid: ab82e32102c50c44297e96a445835197, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3772,7 +3822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &431288226
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9884,6 +9934,7 @@ RectTransform:
   m_Children:
   - {fileID: 1735447145}
   - {fileID: 278320372}
+  - {fileID: 1300570928}
   m_Father: {fileID: 1857006185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11490,6 +11541,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296880327}
   m_CullTransparentMesh: 1
+--- !u!1 &1300570927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300570928}
+  - component: {fileID: 1300570929}
+  m_Layer: 5
+  m_Name: PlanetManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1300570928
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300570927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1066762044}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1300570929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300570927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db656d7731a1b8c4690c02b7466b1992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetManager
+  planets:
+  - planetName: Earth
+    planetObject: {fileID: 1735447142}
+  - planetName: Egg
+    planetObject: {fileID: 278320371}
+  defaultPlanetName: Earth
 --- !u!1 &1300710763
 GameObject:
   m_ObjectHideFlags: 0
