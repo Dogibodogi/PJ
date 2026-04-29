@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // Required for Coroutines
 
 public class GameManager : MonoBehaviour
 {
@@ -12,22 +13,28 @@ public class GameManager : MonoBehaviour
     public Animator endingAnimator;
     public string triggerName = "PlayEnding";
 
+    [Header("Fire Ending Logic")]
+    public int pressesToTriggerFireEnding = 2;
+    public GameObject fireEndingObject;
+
     void Start()
     {
         if (endingCanvas != null)
         {
             endingCanvas.SetActive(false);
         }
+
+        if (fireEndingObject != null)
+        {
+            fireEndingObject.SetActive(false);
+        }
     }
 
-    // The button will call this method and pass its click count to it
     public void CheckButtonPresses(int clickCount)
     {
-        // Add this line right here!
         Debug.Log("GameManager received the number: " + clickCount);
 
-        // 1. Check if we should reverse the planet
-        if (clickCount % pressesToReversePlanet == 0)
+        if (clickCount > 0 && clickCount % pressesToReversePlanet == 0)
         {
             if (planetAnimator != null)
             {
@@ -35,7 +42,11 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // 2. Check if we should trigger the ending
+        if (clickCount == pressesToTriggerFireEnding)
+        {
+            TriggerFireEnding();
+        }
+
         if (clickCount == pressesToTriggerEnding)
         {
             TriggerEnding();
@@ -44,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     private void TriggerEnding()
     {
-        Debug.Log("GameManager: 30 presses reached! Triggering Ending...");
+        Debug.Log("GameManager: " + pressesToTriggerEnding + " presses reached! Triggering Ending...");
 
         if (endingCanvas != null)
         {
@@ -55,5 +66,44 @@ public class GameManager : MonoBehaviour
         {
             endingAnimator.SetTrigger(triggerName);
         }
+    }
+
+    private void TriggerFireEnding()
+    {
+        Debug.Log("GameManager: " + pressesToTriggerFireEnding + " presses reached! Triggering Fire Ending...");
+
+        if (fireEndingObject != null)
+        {
+            StartCoroutine(FireEndingRoutine());
+        }
+        else
+        {
+            Debug.LogWarning("GameManager: Fire ending triggered, but no object is assigned in the Inspector!");
+        }
+    }
+
+    private IEnumerator FireEndingRoutine()
+    {
+        // 1. Activate the fire object
+        fireEndingObject.SetActive(true);
+        Debug.Log("GameManager: Fire Ending activated. Waiting 3 seconds...");
+
+        // --- NEW ADDITION ---
+        // 2. Tell the PlanetManager to swap the planets based on what is currently active
+        if (PlanetManager.Instance != null)
+        {
+            PlanetManager.Instance.HandleFireEnding();
+        }
+        else
+        {
+            Debug.LogWarning("GameManager: Could not find PlanetManager to swap planets!");
+        }
+
+        // 3. Wait for exactly 3 seconds
+        yield return new WaitForSeconds(3f);
+
+        // 4. Deactivate the fire object
+        fireEndingObject.SetActive(false);
+        Debug.Log("GameManager: Fire Ending deactivated.");
     }
 }

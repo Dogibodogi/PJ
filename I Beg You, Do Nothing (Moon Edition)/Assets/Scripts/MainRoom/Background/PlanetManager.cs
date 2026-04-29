@@ -20,9 +20,9 @@ public class PlanetManager : MonoBehaviour
         public GameObject planetObject;
     }
 
-
-    // Keep track of the currently active planet
+    // Keep track of the currently active planet and its name
     private GameObject currentActivePlanet = null;
+    private string activePlanetName = ""; // NEW: Tracks the exact name of the active planet
 
     private void Awake()
     {
@@ -66,7 +66,14 @@ public class PlanetManager : MonoBehaviour
                 // Turn on the requested planet
                 data.planetObject.SetActive(true);
                 currentActivePlanet = data.planetObject;
+                activePlanetName = data.planetName; // NEW: Save the name of the new planet
                 planetFound = true;
+
+                // Unlock this planet in the Catalog
+                if (CatalogPanelController.Instance != null)
+                {
+                    CatalogPanelController.Instance.UnlockPlanet(data.planetName);
+                }
 
                 Debug.Log($"PlanetManager: '{targetName}' is now active.");
                 break;
@@ -91,6 +98,24 @@ public class PlanetManager : MonoBehaviour
         }
 
         currentActivePlanet = null;
+        activePlanetName = "";
         Debug.Log("PlanetManager: All planets have been hidden.");
+    }
+
+    // --- NEW METHOD ---
+    // GameManager will call this when the Fire Ending triggers
+    public void HandleFireEnding()
+    {
+        // Check if the current planet is the Egg
+        if (activePlanetName.ToUpper() == "EGG")
+        {
+            Debug.Log("PlanetManager: Egg detected during Fire Ending. Switching to Fried Egg.");
+            ShowPlanet("Fried Egg");
+        }
+        else
+        {
+            Debug.Log("PlanetManager: Standard planet detected during Fire Ending. Switching to Ash.");
+            ShowPlanet("Ash");
+        }
     }
 }

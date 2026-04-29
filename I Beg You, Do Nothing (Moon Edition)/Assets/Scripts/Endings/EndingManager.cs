@@ -29,6 +29,11 @@ public class EndingManager : MonoBehaviour
     public void TriggerEnding()
     {
         Debug.Log("Ending triggered!");
+
+        // Save the unlocked state to PlayerPrefs so it persists after restarting
+        PlayerPrefs.SetInt("NuclearEndingUnlocked", 1);
+        PlayerPrefs.Save();
+
         StartCoroutine(PlayEndingSequence());
     }
 

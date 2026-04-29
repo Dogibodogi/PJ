@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI; // Required for UI elements like Image and Button
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(Button))]
@@ -18,18 +18,18 @@ public class RedButtonAnimator : MonoBehaviour
     private Button buttonComponent;
     private bool isAnimating = false;
 
-    public PlanetReverseCounter reverseCounter;
+    [Header("Main Manager")]
+    public GameManager gameManager; // The only manager you need now!
 
-    [Header("Endings")]
-    public NuclearEndingCounter nuclearCounter; // NEW: Reference to the nuclear counter
+    // Keeps track of the total clicks to send to the GameManager
+    private int totalClicks = 0;
 
     void Start()
     {
-        // Grab the Image and Button components from this GameObject
         buttonImage = GetComponent<Image>();
         buttonComponent = GetComponent<Button>();
 
-        // Automatically listen for the click event so you don't have to wire it manually!
+        // Automatically listen for the click event
         buttonComponent.onClick.AddListener(TriggerAnimation);
     }
 
@@ -37,15 +37,17 @@ public class RedButtonAnimator : MonoBehaviour
     {
         if (!isAnimating)
         {
-            if (reverseCounter != null)
-            {
-                reverseCounter.RegisterPress();
-            }
+            // Increase the total click count
+            totalClicks++;
 
-            // NEW: Register the press for the Nuclear Ending
-            if (nuclearCounter != null)
+            // Send the click count directly to the GameManager
+            if (gameManager != null)
             {
-                nuclearCounter.RegisterPress();
+                gameManager.CheckButtonPresses(totalClicks);
+            }
+            else
+            {
+                Debug.LogWarning("RedButtonAnimator: GameManager is not assigned in the Inspector!");
             }
 
             StartCoroutine(PlayPressAnimation());
@@ -56,15 +58,12 @@ public class RedButtonAnimator : MonoBehaviour
     {
         isAnimating = true;
 
-        // Frame 1: Pushing down
         buttonImage.sprite = pressedSprite1;
         yield return new WaitForSeconds(animationSpeed);
 
-        // Frame 2: Fully pressed
         buttonImage.sprite = pressedSprite2;
         yield return new WaitForSeconds(animationSpeed);
 
-        // Frame 3: Back to normal
         buttonImage.sprite = normalSprite;
 
         isAnimating = false;
